@@ -995,3 +995,39 @@ utils.ServerError: {'error': 'WebRequestError', 'message': 'Must home axis first
 2022-11-25 10:57:01,348 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
 2022-11-25 10:57:05,854 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
 2022-11-25 10:57:13,519 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 18.12ms
+2022-11-25 11:11:41,275 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-11-25 11:11:41,275 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-11-25 11:11:41,279 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1669396272.087960, Usage: 1.9%, Memory: 29652 kB
+System Time: 1669396273.089936, Usage: 2.07%, Memory: 29652 kB
+System Time: 1669396274.089908, Usage: 2.04%, Memory: 29652 kB
+System Time: 1669396275.090964, Usage: 2.06%, Memory: 29652 kB
+System Time: 1669396276.092301, Usage: 2.04%, Memory: 29652 kB
+System Time: 1669396277.093111, Usage: 5.46%, Memory: 29652 kB
+System Time: 1669396278.094347, Usage: 2.41%, Memory: 29652 kB
+System Time: 1669396279.094842, Usage: 2.13%, Memory: 29652 kB
+System Time: 1669396280.096111, Usage: 2.03%, Memory: 29652 kB
+System Time: 1669396281.097599, Usage: 2.02%, Memory: 29652 kB
+System Time: 1669396282.098585, Usage: 2.02%, Memory: 29652 kB
+System Time: 1669396283.101093, Usage: 2.01%, Memory: 29652 kB
+System Time: 1669396284.102702, Usage: 2.02%, Memory: 29652 kB
+System Time: 1669396285.103389, Usage: 2.1%, Memory: 29652 kB
+System Time: 1669396286.104293, Usage: 1.98%, Memory: 29652 kB
+System Time: 1669396287.106014, Usage: 5.33%, Memory: 29652 kB
+System Time: 1669396288.106865, Usage: 2.46%, Memory: 29652 kB
+System Time: 1669396289.106568, Usage: 2.19%, Memory: 29652 kB
+System Time: 1669396290.108114, Usage: 1.97%, Memory: 29652 kB
+System Time: 1669396291.108883, Usage: 2.03%, Memory: 29652 kB
+System Time: 1669396292.110351, Usage: 1.99%, Memory: 29652 kB
+System Time: 1669396293.112737, Usage: 2.0%, Memory: 29652 kB
+System Time: 1669396294.113717, Usage: 2.14%, Memory: 29652 kB
+System Time: 1669396295.114058, Usage: 2.07%, Memory: 29652 kB
+System Time: 1669396296.115338, Usage: 2.51%, Memory: 29652 kB
+System Time: 1669396297.114933, Usage: 5.09%, Memory: 29652 kB
+System Time: 1669396298.117817, Usage: 1.77%, Memory: 29652 kB
+System Time: 1669396299.115038, Usage: 1.64%, Memory: 29652 kB
+System Time: 1669396300.115340, Usage: 1.05%, Memory: 29652 kB
+System Time: 1669396301.116871, Usage: 1.24%, Memory: 29652 kB
+CPU Temperature: 39.92
+2022-11-25 11:11:41,296 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
