@@ -803,3 +803,15 @@ System Time: 1669393752.222704, Usage: 2.31%, Memory: 29612 kB
 System Time: 1669393753.224806, Usage: 2.09%, Memory: 29612 kB
 CPU Temperature: 39.92
 2022-11-25 10:29:13,775 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2022-11-25 10:32:34,999 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 10:32:36,256 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 10:32:36,556 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 10:32:36,558 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 10:32:54,521 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Klipper reports 'ready', aborting FIRMWARE_RESTART
+2022-11-25 10:32:54,614 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 10:32:54,889 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 10:32:55,376 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 10:32:57,509 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 10:32:58,766 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 10:32:59,063 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 10:32:59,065 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
