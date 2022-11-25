@@ -1617,3 +1617,39 @@ CPU Temperature: 39.92
 2022-11-25 16:14:30,028 [job_state.py:_status_update()] - Job Started: EM_8_9.gcode
 2022-11-25 16:14:50,371 [websockets.py:on_close()] - Websocket Closed: ID: 2818057168 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.85
 2022-11-25 17:16:47,121 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
+2022-11-25 17:51:09,187 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-11-25 17:51:09,188 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-11-25 17:51:09,195 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1669420239.571086, Usage: 5.39%, Memory: 28736 kB
+System Time: 1669420240.572584, Usage: 1.6%, Memory: 28736 kB
+System Time: 1669420241.574518, Usage: 1.57%, Memory: 28736 kB
+System Time: 1669420242.575069, Usage: 1.54%, Memory: 28736 kB
+System Time: 1669420243.576531, Usage: 1.56%, Memory: 28736 kB
+System Time: 1669420244.577355, Usage: 1.57%, Memory: 28736 kB
+System Time: 1669420245.577465, Usage: 1.6%, Memory: 28736 kB
+System Time: 1669420246.579541, Usage: 1.53%, Memory: 28736 kB
+System Time: 1669420247.580493, Usage: 1.6%, Memory: 28736 kB
+System Time: 1669420248.581064, Usage: 1.55%, Memory: 28736 kB
+System Time: 1669420249.583633, Usage: 5.46%, Memory: 28736 kB
+System Time: 1669420250.582940, Usage: 1.71%, Memory: 28736 kB
+System Time: 1669420251.584363, Usage: 1.61%, Memory: 28736 kB
+System Time: 1669420252.584748, Usage: 1.59%, Memory: 28736 kB
+System Time: 1669420253.586033, Usage: 1.57%, Memory: 28736 kB
+System Time: 1669420254.587383, Usage: 1.55%, Memory: 28736 kB
+System Time: 1669420255.588526, Usage: 1.57%, Memory: 28736 kB
+System Time: 1669420256.589228, Usage: 1.55%, Memory: 28736 kB
+System Time: 1669420257.589845, Usage: 1.6%, Memory: 28736 kB
+System Time: 1669420258.591311, Usage: 1.55%, Memory: 28736 kB
+System Time: 1669420259.594229, Usage: 5.54%, Memory: 28736 kB
+System Time: 1669420260.593892, Usage: 1.73%, Memory: 28736 kB
+System Time: 1669420261.594876, Usage: 1.61%, Memory: 28736 kB
+System Time: 1669420262.591638, Usage: 1.28%, Memory: 28736 kB
+System Time: 1669420263.593041, Usage: 0.85%, Memory: 28736 kB
+System Time: 1669420264.594025, Usage: 1.06%, Memory: 28736 kB
+System Time: 1669420265.594552, Usage: 0.82%, Memory: 28736 kB
+System Time: 1669420266.595510, Usage: 0.8%, Memory: 28736 kB
+System Time: 1669420267.597335, Usage: 0.86%, Memory: 28736 kB
+System Time: 1669420268.596983, Usage: 0.9%, Memory: 28736 kB
+CPU Temperature: 40.894
+2022-11-25 17:51:09,214 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
