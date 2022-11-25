@@ -1616,3 +1616,4 @@ CPU Temperature: 39.92
 2022-11-25 16:14:26,526 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 909.34ms
 2022-11-25 16:14:30,028 [job_state.py:_status_update()] - Job Started: EM_8_9.gcode
 2022-11-25 16:14:50,371 [websockets.py:on_close()] - Websocket Closed: ID: 2818057168 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.85
+2022-11-25 17:16:47,121 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
