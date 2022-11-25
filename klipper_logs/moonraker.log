@@ -342,3 +342,6 @@ utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 1
 2022-11-25 08:52:00,267 [klippy_connection.py:_do_connect()] - Klippy Connection Established
 2022-11-25 08:52:00,568 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
 2022-11-25 08:52:00,570 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 08:52:03,577 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 08:52:03,858 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 08:52:04,343 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
