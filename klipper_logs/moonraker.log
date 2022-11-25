@@ -665,3 +665,4 @@ utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 2
 2022-11-25 09:52:10,034 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 09:52:10,529 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
 2022-11-25 09:52:13,274 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
+2022-11-25 10:05:47,852 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
