@@ -1550,3 +1550,6 @@ Error configuring printer
 2022-11-25 14:26:14,832 [job_state.py:_status_update()] - Job Started: EM_Cube-0.700.gcode
 2022-11-25 14:27:52,363 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 21.01ms
 2022-11-25 14:35:01,687 [websockets.py:on_close()] - Websocket Closed: ID: 2799169200 Close Code: None, Close Reason: None, Pong Time Elapsed: 1.52
+2022-11-25 14:51:38,632 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 6.29ms
+2022-11-25 14:51:38,633 [websockets.py:open()] - Websocket Opened: ID: 2818119248, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-25 14:51:38,644 [websockets.py:_handle_identify()] - Websocket 2818119248 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
