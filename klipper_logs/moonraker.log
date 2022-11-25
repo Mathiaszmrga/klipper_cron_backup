@@ -1468,3 +1468,26 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2022-11-25 12:55:10,826 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.66
+2022-11-25 12:55:10,830 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 8.49ms
+2022-11-25 12:55:10,830 [websockets.py:open()] - Websocket Opened: ID: 2817926000, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-25 12:55:10,838 [websockets.py:_handle_identify()] - Websocket 2817926000 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-25 12:55:11,877 [websockets.py:on_close()] - Websocket Closed: ID: 2817926000 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.05
+2022-11-25 12:55:12,845 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 4.48ms
+2022-11-25 12:55:12,846 [websockets.py:open()] - Websocket Opened: ID: 2799167984, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-25 12:55:12,854 [websockets.py:_handle_identify()] - Websocket 2799167984 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-25 12:55:18,492 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
+2022-11-25 12:55:20,131 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 12:55:21,389 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 12:55:21,685 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 12:55:21,690 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 12:55:22,687 [shell_command.py:run_with_response()] - /home/pi/moonraker-env/bin/python: Object Processing is disabled
+
+2022-11-25 12:55:22,688 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "pa_pattern.gcode") successfully finished
+2022-11-25 12:55:22,695 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 362.15ms
+2022-11-25 12:55:25,011 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
+2022-11-25 12:55:25,012 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
+2022-11-25 12:55:25,256 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 12:55:25,531 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 12:55:26,024 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 12:55:31,526 [job_state.py:_status_update()] - Job Started: pa_pattern.gcode
