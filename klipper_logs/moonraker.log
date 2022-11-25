@@ -517,3 +517,4 @@ utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 5
 
 2022-11-25 09:35:55,819 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "levelcubes.gcode") successfully finished
 2022-11-25 09:35:55,830 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 539.79ms
+2022-11-25 09:36:02,292 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
