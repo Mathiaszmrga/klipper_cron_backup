@@ -533,3 +533,4 @@ Traceback (most recent call last):
     raise self.response
 utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 120.000 110.000 -0.600 [-0.750]'}
 2022-11-25 09:43:10,541 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.25ms
+2022-11-25 09:44:23,622 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 18.45ms
