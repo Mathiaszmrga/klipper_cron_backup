@@ -819,3 +819,23 @@ CPU Temperature: 39.92
 2022-11-25 10:33:02,335 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 10:33:02,842 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
 2022-11-25 10:33:44,193 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
+2022-11-25 10:37:41,706 [websockets.py:build_error()] - JSON-RPC Request Error: 400
+{'error': 'WebRequestError', 'message': 'Move out of range: -20.000 -20.000 20.000 [118.637]'}
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 364, in func
+    ip_addr=sc.ip_addr, user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/components/klippy_apis.py", line 71, in _gcode_cancel
+    return await self.cancel_print()
+  File "/home/pi/moonraker/moonraker/components/klippy_apis.py", line 140, in cancel_print
+    "pause_resume/cancel", {}, default)
+  File "/home/pi/moonraker/moonraker/components/klippy_apis.py", line 90, in _send_klippy_request
+    WebRequest(method, params, conn=self))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 481, in request
+    return await self._request_standard(web_request)
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 536, in _request_standard
+    return await base_request.wait()
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
+    raise self.response
+utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: -20.000 -20.000 20.000 [118.637]'}
