@@ -748,3 +748,11 @@ Once the underlying issue is corrected, use the "RESTART"
 command to reload the config and restart the host software.
 Printer is halted
 
+2022-11-25 10:19:06,163 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.89ms
+2022-11-25 10:19:06,807 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 10:19:08,066 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 10:19:08,401 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 10:19:08,403 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 10:19:11,409 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 10:19:11,682 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 10:19:12,169 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
