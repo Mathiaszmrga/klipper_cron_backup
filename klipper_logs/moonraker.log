@@ -1601,3 +1601,8 @@ CPU Temperature: 39.92
 2022-11-25 16:06:13,512 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 2.81ms
 2022-11-25 16:06:13,513 [websockets.py:open()] - Websocket Opened: ID: 2818057168, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
 2022-11-25 16:06:13,619 [websockets.py:_handle_identify()] - Websocket 2818057168 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-25 16:13:53,590 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 8.42ms
+2022-11-25 16:13:57,140 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 16:13:58,397 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 16:13:58,698 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 16:13:58,699 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
