@@ -178,3 +178,7 @@ Once the underlying issue is corrected, use the
 config, and restart the host software.
 Error configuring printer
 
+2022-11-25 08:39:47,350 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.66
+2022-11-25 08:39:47,354 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 8.58ms
+2022-11-25 08:39:47,355 [websockets.py:open()] - Websocket Opened: ID: 2808433328, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-25 08:39:47,363 [websockets.py:_handle_identify()] - Websocket 2808433328 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
