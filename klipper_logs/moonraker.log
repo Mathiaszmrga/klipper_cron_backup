@@ -182,3 +182,14 @@ Error configuring printer
 2022-11-25 08:39:47,354 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 8.58ms
 2022-11-25 08:39:47,355 [websockets.py:open()] - Websocket Opened: ID: 2808433328, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
 2022-11-25 08:39:47,363 [websockets.py:_handle_identify()] - Websocket 2808433328 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-25 08:40:44,411 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 26.11ms
+2022-11-25 08:40:45,462 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 08:40:45,716 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 08:40:46,011 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 08:40:46,013 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 08:40:54,313 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
+2022-11-25 08:40:54,314 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
+2022-11-25 08:40:54,315 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Klipper reports 'ready', aborting FIRMWARE_RESTART
+2022-11-25 08:40:54,554 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 08:40:54,830 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 08:40:55,324 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
