@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libSTM32_USB_Device_Library_STM32G0B1xK.a  CMakeFiles/STM32_USB_Device_Library_STM32G0B1xK.dir/Core/Src/usbd_ctlreq.c.obj CMakeFiles/STM32_USB_Device_Library_STM32G0B1xK.dir/Core/Src/usbd_ioreq.c.obj CMakeFiles/STM32_USB_Device_Library_STM32G0B1xK.dir/Core/Src/usbd_core.c.obj
+/usr/bin/arm-none-eabi-ranlib libSTM32_USB_Device_Library_STM32G0B1xK.a

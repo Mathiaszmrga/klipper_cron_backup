@@ -1,0 +1,947 @@
+[
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_STM32F4_DevBoard -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F4 -DSTM32F407xx -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -o CMakeFiles/STM32F4_DevBoard_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canable -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canable_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_candleLight -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/candleLight_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_canalyze -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/canalyze_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cantact -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cantact_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_cannette -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/cannette_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_usb2can -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F042x6 -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/usb2can_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CANable_MKS -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CANable_MKS_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/usbd_desc.c.obj   -c /home/pi/candleLight_fw/src/usbd_desc.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_desc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/usbd_gs_can.c.obj   -c /home/pi/candleLight_fw/src/usbd_gs_can.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_gs_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/usbd_conf.c.obj   -c /home/pi/candleLight_fw/src/usbd_conf.c",
+  "file": "/home/pi/candleLight_fw/src/usbd_conf.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/can.c.obj   -c /home/pi/candleLight_fw/src/can.c",
+  "file": "/home/pi/candleLight_fw/src/can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/dfu.c.obj   -c /home/pi/candleLight_fw/src/dfu.c",
+  "file": "/home/pi/candleLight_fw/src/dfu.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/gpio.c.obj   -c /home/pi/candleLight_fw/src/gpio.c",
+  "file": "/home/pi/candleLight_fw/src/gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/led.c.obj   -c /home/pi/candleLight_fw/src/led.c",
+  "file": "/home/pi/candleLight_fw/src/led.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/queue.c.obj   -c /home/pi/candleLight_fw/src/queue.c",
+  "file": "/home/pi/candleLight_fw/src/queue.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/timer.c.obj   -c /home/pi/candleLight_fw/src/timer.c",
+  "file": "/home/pi/candleLight_fw/src/timer.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/util.c.obj   -c /home/pi/candleLight_fw/src/util.c",
+  "file": "/home/pi/candleLight_fw/src/util.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/startup.c.obj   -c /home/pi/candleLight_fw/src/startup.c",
+  "file": "/home/pi/candleLight_fw/src/startup.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/main.c.obj   -c /home/pi/candleLight_fw/src/main.c",
+  "file": "/home/pi/candleLight_fw/src/main.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build",
+  "command": "/usr/bin/arm-none-eabi-gcc -DBOARD_CONVERTDEVICE_xCAN01 -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F0 -DSTM32F072xB -I/home/pi/candleLight_fw/include -I/home/pi/candleLight_fw/build -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -o CMakeFiles/CONVERTDEVICE_xCAN01_fw.dir/src/interrupts.c.obj   -c /home/pi/candleLight_fw/src/interrupts.c",
+  "file": "/home/pi/candleLight_fw/src/interrupts.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_fdcan.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_fdcan.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_fdcan.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_cortex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_cortex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_cortex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_flash_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_flash_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_flash_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_flash.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_flash.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_flash.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_gpio.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_gpio.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_pcd_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_pcd_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_pcd_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_pcd.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_pcd.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_pcd.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_rcc.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_rcc.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_rcc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_rcc_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_rcc_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_rcc_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_pwr.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_pwr.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_pwr.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_pwr_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_pwr_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_pwr_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_tim_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_tim_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_tim_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_hal_tim.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_tim.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_hal_tim.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/stm32g0xx/stm32g0xx_ll_usb.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_ll_usb.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32g0xx/stm32g0xx_ll_usb.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32G0B1xK.dir/src/cmsis/system_stm32g0xx.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/cmsis/system_stm32g0xx.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/cmsis/system_stm32g0xx.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_can.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_can.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_cortex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_cortex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_cortex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_flash_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_flash_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_flash_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_flash.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_flash.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_flash.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_gpio.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_gpio.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_pcd_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_pcd_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_pcd_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_pcd.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_pcd.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_pcd.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_rcc.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_rcc.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_rcc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_rcc_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_rcc_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_rcc_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_pwr.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_pwr.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_pwr.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_pwr_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_pwr_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_pwr_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_tim_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_tim_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_tim_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_hal_tim.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_tim.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_hal_tim.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/stm32f4xx/stm32f4xx_ll_usb.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_ll_usb.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f4xx/stm32f4xx_ll_usb.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F407xE.dir/src/cmsis/system_stm32f4xx.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/cmsis/system_stm32f4xx.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/cmsis/system_stm32f4xx.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_can.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_can.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_cortex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_cortex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_cortex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_flash_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_flash_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_flash_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_flash.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_flash.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_flash.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_gpio.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_gpio.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_pcd_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_pcd_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_pcd_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_pcd.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_pcd.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_pcd.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_rcc.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_rcc.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_rcc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_rcc_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_rcc_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_rcc_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_tim_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_tim_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_tim_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_hal_tim.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_tim.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_tim.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/stm32f0xx/stm32f0xx_ll_usb.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_ll_usb.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_ll_usb.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F042x6.dir/src/cmsis/system_stm32f0xx.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/cmsis/system_stm32f0xx.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/cmsis/system_stm32f0xx.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_can.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_can.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_can.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_cortex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_cortex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_cortex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_flash_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_flash_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_flash_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_flash.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_flash.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_flash.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_gpio.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_gpio.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_gpio.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_pcd_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_pcd_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_pcd_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_pcd.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_pcd.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_pcd.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_rcc.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_rcc.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_rcc.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_rcc_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_rcc_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_rcc_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_tim_ex.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_tim_ex.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_tim_ex.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_hal_tim.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_tim.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_hal_tim.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/stm32f0xx/stm32f0xx_ll_usb.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_ll_usb.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/stm32f0xx/stm32f0xx_ll_usb.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_HAL",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -o CMakeFiles/STM32_HAL_STM32F072xB.dir/src/cmsis/system_stm32f0xx.c.obj   -c /home/pi/candleLight_fw/libs/STM32_HAL/src/cmsis/system_stm32f0xx.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_HAL/src/cmsis/system_stm32f0xx.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32G0 -o CMakeFiles/STM32_USB_Device_Library_STM32G0B1xK.dir/Core/Src/usbd_ctlreq.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32G0 -o CMakeFiles/STM32_USB_Device_Library_STM32G0B1xK.dir/Core/Src/usbd_ioreq.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32g0xx -DSTM32G0B1xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32g0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32G0 -o CMakeFiles/STM32_USB_Device_Library_STM32G0B1xK.dir/Core/Src/usbd_core.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -DSTM32F4 -o CMakeFiles/STM32_USB_Device_Library_STM32F407xE.dir/Core/Src/usbd_ctlreq.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -DSTM32F4 -o CMakeFiles/STM32_USB_Device_Library_STM32F407xE.dir/Core/Src/usbd_ioreq.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f4xx -DSTM32F407xx -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f4xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m4 -Wno-unused-parameter -DSTM32F4 -o CMakeFiles/STM32_USB_Device_Library_STM32F407xE.dir/Core/Src/usbd_core.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32F0 -o CMakeFiles/STM32_USB_Device_Library_STM32F042x6.dir/Core/Src/usbd_ctlreq.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32F0 -o CMakeFiles/STM32_USB_Device_Library_STM32F042x6.dir/Core/Src/usbd_ioreq.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F042x6 -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32F0 -o CMakeFiles/STM32_USB_Device_Library_STM32F042x6.dir/Core/Src/usbd_core.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32F0 -o CMakeFiles/STM32_USB_Device_Library_STM32F072xB.dir/Core/Src/usbd_ctlreq.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32F0 -o CMakeFiles/STM32_USB_Device_Library_STM32F072xB.dir/Core/Src/usbd_ioreq.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+},
+{
+  "directory": "/home/pi/candleLight_fw/build/libs/STM32_USB_Device_Library",
+  "command": "/usr/bin/arm-none-eabi-gcc -DHAL_TARGET_PREFIX=stm32f0xx -DSTM32F072xB -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Inc -I/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis -I/home/pi/candleLight_fw/libs/STM32_HAL/include/cmsis/device -I/home/pi/candleLight_fw/libs/STM32_HAL/config -I/home/pi/candleLight_fw/libs/STM32_HAL/include/stm32f0xx    --specs=nano.specs --specs=nosys.specs -O2 -Wall -Werror -Wextra -Wstrict-prototypes -fdata-sections -ffat-lto-objects -ffreestanding -ffunction-sections -flto -fmessage-length=0 -fsigned-char -g3 -mthumb -std=gnu11 -mcpu=cortex-m0 -Wno-unused-parameter -DSTM32F0 -o CMakeFiles/STM32_USB_Device_Library_STM32F072xB.dir/Core/Src/usbd_core.c.obj   -c /home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+  "file": "/home/pi/candleLight_fw/libs/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+}
+]
