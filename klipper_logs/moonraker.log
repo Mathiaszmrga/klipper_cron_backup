@@ -1606,3 +1606,13 @@ CPU Temperature: 39.92
 2022-11-25 16:13:58,397 [klippy_connection.py:_do_connect()] - Klippy Connection Established
 2022-11-25 16:13:58,698 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
 2022-11-25 16:13:58,699 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 16:14:06,530 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Klipper reports 'ready', aborting FIRMWARE_RESTART
+2022-11-25 16:14:06,721 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 16:14:06,997 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 16:14:07,484 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 16:14:26,513 [shell_command.py:run_with_response()] - /home/pi/moonraker-env/bin/python: Object Processing is disabled
+
+2022-11-25 16:14:26,513 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "EM_8_9.gcode") successfully finished
+2022-11-25 16:14:26,526 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 909.34ms
+2022-11-25 16:14:30,028 [job_state.py:_status_update()] - Job Started: EM_8_9.gcode
+2022-11-25 16:14:50,371 [websockets.py:on_close()] - Websocket Closed: ID: 2818057168 Close Code: None, Close Reason: None, Pong Time Elapsed: 6.85
