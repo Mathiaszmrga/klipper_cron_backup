@@ -1533,3 +1533,8 @@ Error configuring printer
 2022-11-25 13:47:18,076 [job_state.py:_handle_started()] - Job state initialized: standby
 2022-11-25 13:47:18,345 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 13:47:18,833 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 14:00:43,106 [shell_command.py:run_with_response()] - /home/pi/moonraker-env/bin/python: Object Processing is disabled
+
+2022-11-25 14:00:43,107 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "EM_Cubes.gcode") successfully finished
+2022-11-25 14:00:43,118 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 929.23ms
+2022-11-25 14:00:50,388 [job_state.py:_status_update()] - Job Started: EM_Cubes.gcode
