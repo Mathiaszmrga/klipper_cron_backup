@@ -1543,3 +1543,7 @@ Error configuring printer
 2022-11-25 14:20:20,152 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 6.34ms
 2022-11-25 14:20:20,153 [websockets.py:open()] - Websocket Opened: ID: 2799169200, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
 2022-11-25 14:20:20,164 [websockets.py:_handle_identify()] - Websocket 2799169200 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-25 14:25:25,003 [shell_command.py:run_with_response()] - /home/pi/moonraker-env/bin/python: Object Processing is disabled
+
+2022-11-25 14:25:25,004 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "EM_Cube-0.700.gcode") successfully finished
+2022-11-25 14:25:25,014 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 1291.11ms
