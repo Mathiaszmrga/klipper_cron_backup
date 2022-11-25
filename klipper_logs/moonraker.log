@@ -532,3 +532,4 @@ Traceback (most recent call last):
   File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
     raise self.response
 utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 120.000 110.000 -0.600 [-0.750]'}
+2022-11-25 09:43:10,541 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.25ms
