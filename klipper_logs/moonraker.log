@@ -756,3 +756,11 @@ Printer is halted
 2022-11-25 10:19:11,409 [job_state.py:_handle_started()] - Job state initialized: standby
 2022-11-25 10:19:11,682 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 10:19:12,169 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 10:21:43,039 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 21.30ms
+2022-11-25 10:21:44,155 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 10:21:45,418 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 10:21:45,717 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 10:21:45,719 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 10:21:48,727 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 10:21:48,999 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 10:21:49,489 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
