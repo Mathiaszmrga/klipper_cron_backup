@@ -346,3 +346,82 @@ utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 1
 2022-11-25 08:52:03,858 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 08:52:04,343 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
 2022-11-25 09:01:36,164 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 24.27ms
+2022-11-25 09:02:07,501 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-11-25 09:02:07,502 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-11-25 09:02:07,510 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1669388498.253231, Usage: 5.95%, Memory: 28224 kB
+System Time: 1669388499.253959, Usage: 2.2%, Memory: 28224 kB
+System Time: 1669388500.254279, Usage: 2.09%, Memory: 28224 kB
+System Time: 1669388501.254600, Usage: 2.99%, Memory: 28224 kB
+System Time: 1669388502.256056, Usage: 1.91%, Memory: 28224 kB
+System Time: 1669388503.257636, Usage: 2.56%, Memory: 28224 kB
+System Time: 1669388504.257892, Usage: 2.03%, Memory: 28224 kB
+System Time: 1669388505.259300, Usage: 2.09%, Memory: 28224 kB
+System Time: 1669388506.261357, Usage: 2.12%, Memory: 28224 kB
+System Time: 1669388507.261837, Usage: 2.16%, Memory: 28224 kB
+System Time: 1669388508.264226, Usage: 6.35%, Memory: 28224 kB
+System Time: 1669388509.263863, Usage: 2.27%, Memory: 28224 kB
+System Time: 1669388510.264351, Usage: 2.08%, Memory: 28224 kB
+System Time: 1669388511.265907, Usage: 3.45%, Memory: 28224 kB
+System Time: 1669388512.267150, Usage: 1.59%, Memory: 28224 kB
+System Time: 1669388513.268190, Usage: 2.15%, Memory: 28224 kB
+System Time: 1669388514.269009, Usage: 2.14%, Memory: 28224 kB
+System Time: 1669388515.269925, Usage: 2.15%, Memory: 28224 kB
+System Time: 1669388516.270051, Usage: 2.11%, Memory: 28224 kB
+System Time: 1669388517.271286, Usage: 2.1%, Memory: 28224 kB
+System Time: 1669388518.273152, Usage: 6.42%, Memory: 28224 kB
+System Time: 1669388519.273628, Usage: 2.27%, Memory: 28224 kB
+System Time: 1669388520.273096, Usage: 2.13%, Memory: 28224 kB
+System Time: 1669388521.275234, Usage: 2.1%, Memory: 28224 kB
+System Time: 1669388522.272060, Usage: 1.86%, Memory: 28224 kB
+System Time: 1669388523.272693, Usage: 1.35%, Memory: 28224 kB
+System Time: 1669388524.277243, Usage: 1.36%, Memory: 28224 kB
+System Time: 1669388525.278523, Usage: 2.28%, Memory: 28224 kB
+System Time: 1669388526.278924, Usage: 2.11%, Memory: 28224 kB
+System Time: 1669388527.281058, Usage: 2.09%, Memory: 28224 kB
+CPU Temperature: 32.128
+2022-11-25 09:02:07,535 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2022-11-25 09:02:09,332 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 09:02:10,591 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 09:02:10,890 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 09:02:10,892 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 09:02:28,871 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Klipper reports 'ready', aborting FIRMWARE_RESTART
+2022-11-25 09:02:28,945 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 09:02:29,218 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 09:02:29,709 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 09:02:31,853 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 09:02:31,855 [websockets.py:build_error()] - JSON-RPC Request Error: 503
+Klippy Disconnected
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 351, in func
+    user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 481, in request
+    return await self._request_standard(web_request)
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 536, in _request_standard
+    return await base_request.wait()
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
+    raise self.response
+utils.ServerError: Klippy Disconnected
+2022-11-25 09:02:33,112 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 09:02:33,427 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 09:02:33,429 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 09:02:36,434 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 09:02:36,707 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 09:02:37,197 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 09:02:53,172 [websockets.py:build_error()] - JSON-RPC Request Error: 400
+{'error': 'WebRequestError', 'message': 'Move out of range: 120.000 120.000 -0.100 [0.000]'}
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 351, in func
+    user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 481, in request
+    return await self._request_standard(web_request)
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 536, in _request_standard
+    return await base_request.wait()
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
+    raise self.response
+utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 120.000 120.000 -0.100 [0.000]'}
