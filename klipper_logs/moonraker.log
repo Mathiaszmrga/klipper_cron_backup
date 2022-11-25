@@ -1491,3 +1491,8 @@ Error configuring printer
 2022-11-25 12:55:25,531 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 12:55:26,024 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
 2022-11-25 12:55:31,526 [job_state.py:_status_update()] - Job Started: pa_pattern.gcode
+2022-11-25 13:00:33,613 [shell_command.py:run_with_response()] - /home/pi/moonraker-env/bin/python: Object Processing is disabled
+
+2022-11-25 13:00:33,613 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "pa_pattern2.gcode") successfully finished
+2022-11-25 13:00:33,618 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 326.26ms
+2022-11-25 13:00:39,374 [job_state.py:_status_update()] - Job Started: pa_pattern2.gcode
