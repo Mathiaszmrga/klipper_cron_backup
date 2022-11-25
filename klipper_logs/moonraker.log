@@ -932,3 +932,25 @@ Traceback (most recent call last):
     raise self.response
 utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 20.000 200.000 0.280 [86.116]'}
 2022-11-25 10:50:42,076 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.42ms
+2022-11-25 10:52:29,757 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 18.66ms
+2022-11-25 10:52:35,602 [websockets.py:build_error()] - JSON-RPC Request Error: 400
+{'error': 'WebRequestError', 'message': 'Move out of range: 20.000 200.000 0.280 [86.116]'}
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 351, in func
+    user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 481, in request
+    return await self._request_standard(web_request)
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 536, in _request_standard
+    return await base_request.wait()
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
+    raise self.response
+utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 20.000 200.000 0.280 [86.116]'}
+2022-11-25 10:52:42,163 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 10:52:43,422 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 10:52:43,720 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 10:52:43,722 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 10:52:46,730 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 10:52:47,003 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 10:52:47,491 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
