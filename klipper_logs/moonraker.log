@@ -1501,3 +1501,8 @@ Error configuring printer
 2022-11-25 13:10:21,154 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "filename.gcode") successfully finished
 2022-11-25 13:10:21,159 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 456.51ms
 2022-11-25 13:11:27,308 [job_state.py:_status_update()] - Job Started: filename.gcode
+2022-11-25 13:15:08,464 [shell_command.py:run_with_response()] - /home/pi/moonraker-env/bin/python: Object Processing is disabled
+
+2022-11-25 13:15:08,464 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "filename.gcode") successfully finished
+2022-11-25 13:15:08,468 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 456.14ms
+2022-11-25 13:15:11,449 [job_state.py:_status_update()] - Job Started: filename.gcode
