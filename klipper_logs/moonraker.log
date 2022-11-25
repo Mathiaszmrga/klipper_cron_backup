@@ -666,3 +666,33 @@ utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 2
 2022-11-25 09:52:10,529 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
 2022-11-25 09:52:13,274 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
 2022-11-25 10:05:47,852 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
+2022-11-25 10:17:08,494 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 10:17:09,753 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 10:17:10,050 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 10:17:10,051 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 10:17:10,055 [klippy_connection.py:_check_ready()] - 
+position_endstop in section 'stepper_z' must be between position_min and position_max
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-11-25 10:17:35,168 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 16.95ms
+2022-11-25 10:17:35,810 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 10:17:37,070 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 10:17:37,371 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 10:17:37,373 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 10:17:39,905 [klippy_connection.py:_check_ready()] - 
+Failed automated reset of MCU 'mcu'
+Once the underlying issue is corrected, use the
+"FIRMWARE_RESTART" command to reset the firmware, reload the
+config, and restart the host software.
+Error configuring printer
+
+2022-11-25 10:17:44,427 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 10:17:45,688 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 10:17:45,986 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 10:17:45,988 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 10:17:48,995 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 10:17:49,269 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 10:17:49,757 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
