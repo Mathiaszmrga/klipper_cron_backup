@@ -767,3 +767,39 @@ Printer is halted
 2022-11-25 10:23:16,497 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
 2022-11-25 10:26:48,392 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 29.12ms
 2022-11-25 10:28:00,550 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 27.85ms
+2022-11-25 10:29:13,751 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-11-25 10:29:13,754 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-11-25 10:29:13,759 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1669393724.189840, Usage: 5.85%, Memory: 29612 kB
+System Time: 1669393725.189289, Usage: 2.35%, Memory: 29612 kB
+System Time: 1669393726.189862, Usage: 2.26%, Memory: 29612 kB
+System Time: 1669393727.190778, Usage: 2.24%, Memory: 29612 kB
+System Time: 1669393728.191225, Usage: 2.57%, Memory: 29612 kB
+System Time: 1669393729.193417, Usage: 2.22%, Memory: 29612 kB
+System Time: 1669393730.194842, Usage: 2.16%, Memory: 29612 kB
+System Time: 1669393731.197820, Usage: 2.12%, Memory: 29612 kB
+System Time: 1669393732.197534, Usage: 2.28%, Memory: 29612 kB
+System Time: 1669393733.197382, Usage: 2.31%, Memory: 29612 kB
+System Time: 1669393734.201535, Usage: 5.83%, Memory: 29612 kB
+System Time: 1669393735.201838, Usage: 2.4%, Memory: 29612 kB
+System Time: 1669393736.203599, Usage: 2.27%, Memory: 29612 kB
+System Time: 1669393737.206089, Usage: 2.21%, Memory: 29612 kB
+System Time: 1669393738.207824, Usage: 2.51%, Memory: 29612 kB
+System Time: 1669393739.208506, Usage: 2.26%, Memory: 29612 kB
+System Time: 1669393740.210770, Usage: 2.15%, Memory: 29612 kB
+System Time: 1669393741.211649, Usage: 2.31%, Memory: 29612 kB
+System Time: 1669393742.208872, Usage: 2.04%, Memory: 29612 kB
+System Time: 1669393743.212825, Usage: 1.16%, Memory: 29612 kB
+System Time: 1669393744.211428, Usage: 5.59%, Memory: 29612 kB
+System Time: 1669393745.215142, Usage: 1.23%, Memory: 29612 kB
+System Time: 1669393746.216161, Usage: 2.33%, Memory: 29612 kB
+System Time: 1669393747.218568, Usage: 2.14%, Memory: 29612 kB
+System Time: 1669393748.219591, Usage: 2.66%, Memory: 29612 kB
+System Time: 1669393749.219882, Usage: 2.34%, Memory: 29612 kB
+System Time: 1669393750.221555, Usage: 2.06%, Memory: 29612 kB
+System Time: 1669393751.222224, Usage: 2.19%, Memory: 29612 kB
+System Time: 1669393752.222704, Usage: 2.31%, Memory: 29612 kB
+System Time: 1669393753.224806, Usage: 2.09%, Memory: 29612 kB
+CPU Temperature: 39.92
+2022-11-25 10:29:13,775 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
