@@ -1562,3 +1562,39 @@ Error configuring printer
 2022-11-25 15:38:38,589 [websockets.py:open()] - Websocket Opened: ID: 2817868816, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
 2022-11-25 15:38:38,598 [websockets.py:_handle_identify()] - Websocket 2817868816 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
 2022-11-25 15:41:11,407 [websockets.py:on_close()] - Websocket Closed: ID: 2817868816 Close Code: None, Close Reason: None, Pong Time Elapsed: 2.81
+2022-11-25 16:01:58,269 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-11-25 16:01:58,269 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-11-25 16:01:58,271 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1669413689.046603, Usage: 1.55%, Memory: 28352 kB
+System Time: 1669413690.047696, Usage: 1.57%, Memory: 28352 kB
+System Time: 1669413691.047550, Usage: 1.51%, Memory: 28352 kB
+System Time: 1669413692.050799, Usage: 4.69%, Memory: 28352 kB
+System Time: 1669413693.051045, Usage: 1.68%, Memory: 28352 kB
+System Time: 1669413694.051538, Usage: 1.64%, Memory: 28352 kB
+System Time: 1669413695.052399, Usage: 1.53%, Memory: 28352 kB
+System Time: 1669413696.053473, Usage: 1.59%, Memory: 28352 kB
+System Time: 1669413697.053401, Usage: 1.53%, Memory: 28352 kB
+System Time: 1669413698.055963, Usage: 1.45%, Memory: 28352 kB
+System Time: 1669413699.057062, Usage: 1.54%, Memory: 28352 kB
+System Time: 1669413700.057434, Usage: 1.52%, Memory: 28352 kB
+System Time: 1669413701.058408, Usage: 1.53%, Memory: 28352 kB
+System Time: 1669413702.061273, Usage: 4.88%, Memory: 28352 kB
+System Time: 1669413703.060774, Usage: 1.65%, Memory: 28352 kB
+System Time: 1669413704.062408, Usage: 1.56%, Memory: 28352 kB
+System Time: 1669413705.062682, Usage: 1.58%, Memory: 28352 kB
+System Time: 1669413706.063519, Usage: 1.52%, Memory: 28352 kB
+System Time: 1669413707.064979, Usage: 1.53%, Memory: 28352 kB
+System Time: 1669413708.066148, Usage: 1.59%, Memory: 28352 kB
+System Time: 1669413709.067434, Usage: 1.52%, Memory: 28352 kB
+System Time: 1669413710.068378, Usage: 1.56%, Memory: 28352 kB
+System Time: 1669413711.069647, Usage: 1.49%, Memory: 28352 kB
+System Time: 1669413712.072548, Usage: 5.25%, Memory: 28352 kB
+System Time: 1669413713.072664, Usage: 2.03%, Memory: 28352 kB
+System Time: 1669413714.069092, Usage: 1.31%, Memory: 28352 kB
+System Time: 1669413715.069354, Usage: 0.73%, Memory: 28352 kB
+System Time: 1669413716.070266, Usage: 0.74%, Memory: 28352 kB
+System Time: 1669413717.071681, Usage: 0.92%, Memory: 28352 kB
+System Time: 1669413718.071670, Usage: 0.87%, Memory: 28352 kB
+CPU Temperature: 39.92
+2022-11-25 16:01:58,286 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
