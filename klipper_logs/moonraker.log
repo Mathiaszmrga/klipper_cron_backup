@@ -505,3 +505,11 @@ utils.ServerError: {'error': 'WebRequestError', 'message': 'Move out of range: 5
 2022-11-25 09:21:28,981 [job_state.py:_handle_started()] - Job state initialized: standby
 2022-11-25 09:21:29,257 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 09:21:29,742 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 09:34:14,070 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 18.77ms
+2022-11-25 09:34:15,179 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 09:34:16,440 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 09:34:16,743 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 09:34:16,744 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 09:34:19,755 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 09:34:20,029 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 09:34:20,522 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
