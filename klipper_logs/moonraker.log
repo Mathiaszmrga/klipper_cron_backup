@@ -815,3 +815,7 @@ CPU Temperature: 39.92
 2022-11-25 10:32:58,766 [klippy_connection.py:_do_connect()] - Klippy Connection Established
 2022-11-25 10:32:59,063 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
 2022-11-25 10:32:59,065 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 10:33:02,070 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 10:33:02,335 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 10:33:02,842 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 10:33:44,193 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
