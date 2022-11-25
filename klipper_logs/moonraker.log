@@ -1547,3 +1547,4 @@ Error configuring printer
 
 2022-11-25 14:25:25,004 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "EM_Cube-0.700.gcode") successfully finished
 2022-11-25 14:25:25,014 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 1291.11ms
+2022-11-25 14:26:14,832 [job_state.py:_status_update()] - Job Started: EM_Cube-0.700.gcode
