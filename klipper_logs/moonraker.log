@@ -764,3 +764,4 @@ Printer is halted
 2022-11-25 10:21:48,727 [job_state.py:_handle_started()] - Job state initialized: standby
 2022-11-25 10:21:48,999 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 10:21:49,489 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 10:23:16,497 [job_state.py:_status_update()] - Job Started: levelcubes.gcode
