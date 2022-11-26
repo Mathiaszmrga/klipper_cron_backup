@@ -183,3 +183,7 @@ utils.ServerError: Invalid file path: gcodes/EM3.gcode
 2022-11-26 00:25:40,088 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 3349.08ms
 2022-11-26 00:25:43,844 [job_state.py:_status_update()] - Job Started: Retraction calibration.gcode
 2022-11-26 00:46:47,551 [update_manager.py:_handle_auto_refresh()] - Klippy is printing, auto refresh aborted
+2022-11-26 00:48:38,644 [websockets.py:on_close()] - Websocket Closed: ID: 2799150832 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 16.99
+2022-11-26 00:48:38,930 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 5.67ms
+2022-11-26 00:48:38,931 [websockets.py:open()] - Websocket Opened: ID: 2778026320, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-26 00:48:38,944 [websockets.py:_handle_identify()] - Websocket 2778026320 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
