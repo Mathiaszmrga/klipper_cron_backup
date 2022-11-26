@@ -182,3 +182,4 @@ utils.ServerError: Invalid file path: gcodes/EM3.gcode
 2022-11-26 00:25:40,075 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "Retraction calibration.gcode") successfully finished
 2022-11-26 00:25:40,088 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 3349.08ms
 2022-11-26 00:25:43,844 [job_state.py:_status_update()] - Job Started: Retraction calibration.gcode
+2022-11-26 00:46:47,551 [update_manager.py:_handle_auto_refresh()] - Klippy is printing, auto refresh aborted
