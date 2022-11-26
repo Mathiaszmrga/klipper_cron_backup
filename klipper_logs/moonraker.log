@@ -187,3 +187,13 @@ utils.ServerError: Invalid file path: gcodes/EM3.gcode
 2022-11-26 00:48:38,930 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 5.67ms
 2022-11-26 00:48:38,931 [websockets.py:open()] - Websocket Opened: ID: 2778026320, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
 2022-11-26 00:48:38,944 [websockets.py:_handle_identify()] - Websocket 2778026320 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-26 00:49:09,268 [websockets.py:write_to_socket()] - Websocket closed while writing: 2778026320
+2022-11-26 00:49:13,935 [websockets.py:on_close()] - Websocket Closed: ID: 2778026320 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.01
+2022-11-26 00:49:23,208 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 5.83ms
+2022-11-26 00:49:23,209 [websockets.py:open()] - Websocket Opened: ID: 2818292560, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-26 00:49:23,218 [websockets.py:_handle_identify()] - Websocket 2818292560 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-26 00:49:27,354 [websockets.py:on_close()] - Websocket Closed: ID: 2818292560 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.15
+2022-11-26 00:49:27,556 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 5.07ms
+2022-11-26 00:49:27,557 [websockets.py:open()] - Websocket Opened: ID: 2778028816, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-26 00:49:27,565 [websockets.py:_handle_identify()] - Websocket 2778028816 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-26 00:49:58,328 [websockets.py:write_to_socket()] - Websocket closed while writing: 2778028816
