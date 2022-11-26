@@ -278,3 +278,7 @@ CPU Temperature: 35.537
 2022-11-26 01:14:14,492 [websockets.py:_handle_identify()] - Websocket 2818133616 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
 2022-11-26 01:16:54,501 [websockets.py:write_to_socket()] - Websocket closed while writing: 2818133616
 2022-11-26 01:16:59,461 [websockets.py:on_close()] - Websocket Closed: ID: 2818133616 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
+2022-11-26 01:19:29,927 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 6.12ms
+2022-11-26 01:19:29,928 [websockets.py:open()] - Websocket Opened: ID: 2818179312, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-26 01:19:29,938 [websockets.py:_handle_identify()] - Websocket 2818179312 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-26 01:20:00,717 [websockets.py:write_to_socket()] - Websocket closed while writing: 2818179312
