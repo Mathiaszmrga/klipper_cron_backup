@@ -1671,3 +1671,19 @@ CPU Temperature: 40.894
 2022-11-25 19:51:09,956 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 1054.94ms
 2022-11-25 19:55:52,483 [job_state.py:_status_update()] - Job Started: EM3.gcode
 2022-11-25 19:59:36,284 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.45ms
+2022-11-25 20:06:22,372 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 16.75ms
+2022-11-25 20:06:23,491 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 20:06:24,750 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 20:06:25,062 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 20:06:25,068 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 20:06:28,072 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 20:06:28,346 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 20:06:28,833 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 20:06:43,011 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 21.63ms
+2022-11-25 20:06:44,134 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 20:06:45,392 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 20:06:45,702 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 20:06:45,708 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 20:06:48,712 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 20:06:48,983 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 20:06:49,472 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
