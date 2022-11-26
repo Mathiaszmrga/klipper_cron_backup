@@ -322,3 +322,63 @@ CPU Temperature: 35.537
 2022-11-26 01:36:36,053 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 2190.66ms
 2022-11-26 01:36:43,315 [job_state.py:_status_update()] - Job Started: 3DBenchy.gcode
 2022-11-26 01:37:19,025 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 46.56ms
+2022-11-26 01:38:26,092 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-11-26 01:38:26,095 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-11-26 01:38:26,104 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1669448277.002944, Usage: 2.26%, Memory: 29628 kB
+System Time: 1669448278.003535, Usage: 2.33%, Memory: 29628 kB
+System Time: 1669448279.004354, Usage: 2.34%, Memory: 29628 kB
+System Time: 1669448280.006915, Usage: 6.18%, Memory: 29628 kB
+System Time: 1669448281.005917, Usage: 2.48%, Memory: 29628 kB
+System Time: 1669448282.005388, Usage: 1.88%, Memory: 29628 kB
+System Time: 1669448283.004829, Usage: 1.83%, Memory: 29628 kB
+System Time: 1669448284.010386, Usage: 1.53%, Memory: 29628 kB
+System Time: 1669448285.011265, Usage: 2.38%, Memory: 29628 kB
+System Time: 1669448286.012958, Usage: 2.7%, Memory: 29628 kB
+System Time: 1669448287.013969, Usage: 2.3%, Memory: 29628 kB
+System Time: 1669448288.014637, Usage: 2.37%, Memory: 29628 kB
+System Time: 1669448289.015999, Usage: 2.28%, Memory: 29628 kB
+System Time: 1669448290.020001, Usage: 6.55%, Memory: 29628 kB
+System Time: 1669448291.019584, Usage: 2.49%, Memory: 29628 kB
+System Time: 1669448292.021761, Usage: 2.44%, Memory: 29628 kB
+System Time: 1669448293.021968, Usage: 2.34%, Memory: 29628 kB
+System Time: 1669448294.023854, Usage: 2.25%, Memory: 29628 kB
+System Time: 1669448295.025431, Usage: 2.32%, Memory: 29628 kB
+System Time: 1669448296.025799, Usage: 2.6%, Memory: 29628 kB
+System Time: 1669448297.027430, Usage: 2.33%, Memory: 29628 kB
+System Time: 1669448298.028895, Usage: 2.32%, Memory: 29628 kB
+System Time: 1669448299.029930, Usage: 2.29%, Memory: 29628 kB
+System Time: 1669448300.032656, Usage: 5.85%, Memory: 29628 kB
+System Time: 1669448301.032629, Usage: 2.41%, Memory: 29628 kB
+System Time: 1669448302.033972, Usage: 2.34%, Memory: 29628 kB
+System Time: 1669448303.035147, Usage: 2.36%, Memory: 29628 kB
+System Time: 1669448304.036711, Usage: 2.35%, Memory: 29628 kB
+System Time: 1669448305.036810, Usage: 2.75%, Memory: 29628 kB
+System Time: 1669448306.036391, Usage: 3.19%, Memory: 29628 kB
+CPU Temperature: 32.615
+2022-11-26 01:38:26,128 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2022-11-26 01:38:26,228 [websockets.py:build_error()] - JSON-RPC Request Error: 400
+{'error': 'WebRequestError', 'message': 'Shutdown due to webhooks request\nOnce the underlying issue is corrected, use the\n"FIRMWARE_RESTART" command to reset the firmware, reload the\nconfig, and restart the host software.\nPrinter is shutdown\n'}
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 351, in func
+    user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 481, in request
+    return await self._request_standard(web_request)
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 536, in _request_standard
+    return await base_request.wait()
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
+    raise self.response
+utils.ServerError: {'error': 'WebRequestError', 'message': 'Shutdown due to webhooks request\nOnce the underlying issue is corrected, use the\n"FIRMWARE_RESTART" command to reset the firmware, reload the\nconfig, and restart the host software.\nPrinter is shutdown\n'}
+2022-11-26 01:38:48,309 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 13.02ms
+2022-11-26 01:38:48,376 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-26 01:38:49,633 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-26 01:38:49,934 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-26 01:38:49,936 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-26 01:38:57,773 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Klipper reports 'ready', aborting FIRMWARE_RESTART
+2022-11-26 01:38:57,956 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-26 01:38:58,230 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-26 01:38:58,726 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-26 01:39:00,968 [job_state.py:_status_update()] - Job Started: 3DBenchy.gcode
