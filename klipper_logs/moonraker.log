@@ -209,3 +209,47 @@ utils.ServerError: Invalid file path: gcodes/EM3.gcode
 2022-11-26 00:50:20,114 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 4.82ms
 2022-11-26 00:50:20,114 [websockets.py:open()] - Websocket Opened: ID: 2799029968, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
 2022-11-26 00:50:20,126 [websockets.py:_handle_identify()] - Websocket 2799029968 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-26 00:54:14,817 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-11-26 00:54:14,818 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-11-26 00:54:14,822 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1669445625.741702, Usage: 2.18%, Memory: 29272 kB
+System Time: 1669445626.743640, Usage: 5.91%, Memory: 29272 kB
+System Time: 1669445627.745208, Usage: 2.33%, Memory: 29272 kB
+System Time: 1669445628.747270, Usage: 2.1%, Memory: 29272 kB
+System Time: 1669445629.750667, Usage: 2.06%, Memory: 29272 kB
+System Time: 1669445630.753082, Usage: 2.5%, Memory: 29272 kB
+System Time: 1669445631.754627, Usage: 2.15%, Memory: 29272 kB
+System Time: 1669445632.757477, Usage: 2.07%, Memory: 29272 kB
+System Time: 1669445633.759353, Usage: 2.26%, Memory: 29272 kB
+System Time: 1669445634.762757, Usage: 1.95%, Memory: 29272 kB
+System Time: 1669445635.763609, Usage: 2.14%, Memory: 29272 kB
+System Time: 1669445636.768165, Usage: 5.69%, Memory: 29272 kB
+System Time: 1669445637.767355, Usage: 2.41%, Memory: 29272 kB
+System Time: 1669445638.765637, Usage: 2.2%, Memory: 29272 kB
+System Time: 1669445639.765917, Usage: 2.1%, Memory: 29272 kB
+System Time: 1669445640.767001, Usage: 2.34%, Memory: 29272 kB
+System Time: 1669445641.764031, Usage: 1.95%, Memory: 29272 kB
+System Time: 1669445642.768959, Usage: 1.48%, Memory: 29272 kB
+System Time: 1669445643.768638, Usage: 1.74%, Memory: 29272 kB
+System Time: 1669445644.770921, Usage: 1.99%, Memory: 29272 kB
+System Time: 1669445645.771069, Usage: 2.16%, Memory: 29272 kB
+System Time: 1669445646.773625, Usage: 5.54%, Memory: 29272 kB
+System Time: 1669445647.772954, Usage: 2.32%, Memory: 29272 kB
+System Time: 1669445648.773963, Usage: 2.13%, Memory: 29272 kB
+System Time: 1669445649.775026, Usage: 2.22%, Memory: 29272 kB
+System Time: 1669445650.772965, Usage: 2.7%, Memory: 29272 kB
+System Time: 1669445651.775011, Usage: 1.27%, Memory: 29272 kB
+System Time: 1669445652.773914, Usage: 1.22%, Memory: 29272 kB
+System Time: 1669445653.775119, Usage: 1.4%, Memory: 29272 kB
+System Time: 1669445654.773947, Usage: 1.47%, Memory: 29272 kB
+CPU Temperature: 35.537
+2022-11-26 00:54:14,835 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2022-11-26 00:54:22,591 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
+2022-11-26 00:54:23,650 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-26 00:54:24,908 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-26 00:54:25,211 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-26 00:54:25,212 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-26 00:54:28,219 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-26 00:54:28,493 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-26 00:54:28,973 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
