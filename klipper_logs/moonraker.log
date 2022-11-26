@@ -197,3 +197,15 @@ utils.ServerError: Invalid file path: gcodes/EM3.gcode
 2022-11-26 00:49:27,557 [websockets.py:open()] - Websocket Opened: ID: 2778028816, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
 2022-11-26 00:49:27,565 [websockets.py:_handle_identify()] - Websocket 2778028816 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
 2022-11-26 00:49:58,328 [websockets.py:write_to_socket()] - Websocket closed while writing: 2778028816
+2022-11-26 00:50:02,562 [websockets.py:on_close()] - Websocket Closed: ID: 2778028816 Close Code: None, Close Reason: None, Pong Time Elapsed: 35.01
+2022-11-26 00:50:14,976 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 5.80ms
+2022-11-26 00:50:14,977 [websockets.py:open()] - Websocket Opened: ID: 2778026576, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-26 00:50:15,007 [websockets.py:_handle_identify()] - Websocket 2778026576 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-26 00:50:15,541 [websockets.py:on_close()] - Websocket Closed: ID: 2778026576 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 0.57
+2022-11-26 00:50:15,738 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 2.40ms
+2022-11-26 00:50:15,739 [websockets.py:open()] - Websocket Opened: ID: 2817690160, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-26 00:50:15,749 [websockets.py:_handle_identify()] - Websocket 2817690160 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-26 00:50:17,814 [websockets.py:on_close()] - Websocket Closed: ID: 2817690160 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.08
+2022-11-26 00:50:20,114 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 4.82ms
+2022-11-26 00:50:20,114 [websockets.py:open()] - Websocket Opened: ID: 2799029968, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-11-26 00:50:20,126 [websockets.py:_handle_identify()] - Websocket 2799029968 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
