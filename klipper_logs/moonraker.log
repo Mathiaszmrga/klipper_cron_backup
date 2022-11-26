@@ -1670,3 +1670,4 @@ CPU Temperature: 40.894
 2022-11-25 19:51:09,940 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "EM3.gcode") successfully finished
 2022-11-25 19:51:09,956 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 1054.94ms
 2022-11-25 19:55:52,483 [job_state.py:_status_update()] - Job Started: EM3.gcode
+2022-11-25 19:59:36,284 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.45ms
