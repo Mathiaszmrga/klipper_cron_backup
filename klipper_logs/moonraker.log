@@ -1688,3 +1688,4 @@ CPU Temperature: 40.894
 2022-11-25 20:06:48,983 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-25 20:06:49,472 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
 2022-11-25 20:11:59,037 [job_state.py:_status_update()] - Job Started: EM3.gcode
+2022-11-25 20:22:53,353 [job_state.py:_status_update()] - Job Started: EM3.gcode
