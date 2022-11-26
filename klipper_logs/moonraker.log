@@ -253,3 +253,5 @@ CPU Temperature: 35.537
 2022-11-26 00:54:28,219 [job_state.py:_handle_started()] - Job state initialized: standby
 2022-11-26 00:54:28,493 [klippy_connection.py:_check_ready()] - Klippy ready
 2022-11-26 00:54:28,973 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-26 00:57:50,284 [websockets.py:write_to_socket()] - Websocket closed while writing: 2799029968
+2022-11-26 00:57:55,118 [websockets.py:on_close()] - Websocket Closed: ID: 2799029968 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.99
