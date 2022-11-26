@@ -1690,3 +1690,4 @@ CPU Temperature: 40.894
 2022-11-25 20:11:59,037 [job_state.py:_status_update()] - Job Started: EM3.gcode
 2022-11-25 20:22:53,353 [job_state.py:_status_update()] - Job Started: EM3.gcode
 2022-11-25 20:28:28,489 [websockets.py:on_close()] - Websocket Closed: ID: 3049949712 Close Code: None, Close Reason: None, Pong Time Elapsed: 9.91
+2022-11-25 21:11:47,177 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
