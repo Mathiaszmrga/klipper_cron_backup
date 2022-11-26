@@ -291,3 +291,6 @@ CPU Temperature: 35.537
 2022-11-26 01:23:24,258 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 5.80ms
 2022-11-26 01:23:24,259 [websockets.py:open()] - Websocket Opened: ID: 2817699984, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
 2022-11-26 01:23:24,269 [websockets.py:_handle_identify()] - Websocket 2817699984 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-11-26 01:24:24,368 [websockets.py:write_to_socket()] - Websocket closed while writing: 2817699984
+2022-11-26 01:24:29,263 [websockets.py:on_close()] - Websocket Closed: ID: 2817699984 Close Code: None, Close Reason: None, Pong Time Elapsed: 44.64
+2022-11-26 01:24:37,312 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 81.18ms
