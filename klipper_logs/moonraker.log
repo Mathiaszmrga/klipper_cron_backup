@@ -1731,3 +1731,48 @@ System Time: 1669435077.706788, Usage: 1.04%, Memory: 28764 kB
 System Time: 1669435078.710742, Usage: 1.05%, Memory: 28764 kB
 CPU Temperature: 39.433
 2022-11-25 21:57:58,821 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2022-11-25 21:58:19,093 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
+2022-11-25 21:58:20,155 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-11-25 21:58:21,416 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-11-25 21:58:21,715 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-11-25 21:58:21,716 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-11-25 21:58:24,725 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-11-25 21:58:25,001 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-11-25 21:58:25,488 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-11-25 21:58:31,549 [websockets.py:on_close()] - Websocket Closed: ID: 2818291888 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.19
+2022-11-25 21:58:33,501 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-11-25 21:58:33,502 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-11-25 21:58:33,504 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1669435083.713574, Usage: 1.21%, Memory: 28764 kB
+System Time: 1669435084.713754, Usage: 1.4%, Memory: 28764 kB
+System Time: 1669435085.716142, Usage: 3.16%, Memory: 28764 kB
+System Time: 1669435086.714858, Usage: 1.71%, Memory: 28764 kB
+System Time: 1669435087.724759, Usage: 1.09%, Memory: 28764 kB
+System Time: 1669435088.718001, Usage: 1.57%, Memory: 28764 kB
+System Time: 1669435089.719203, Usage: 1.16%, Memory: 28764 kB
+System Time: 1669435090.720671, Usage: 1.29%, Memory: 28764 kB
+System Time: 1669435091.724684, Usage: 1.07%, Memory: 28764 kB
+System Time: 1669435092.725223, Usage: 1.5%, Memory: 28764 kB
+System Time: 1669435093.727114, Usage: 1.07%, Memory: 28764 kB
+System Time: 1669435094.729589, Usage: 1.24%, Memory: 28764 kB
+System Time: 1669435095.731127, Usage: 2.98%, Memory: 28764 kB
+System Time: 1669435096.731370, Usage: 1.54%, Memory: 28764 kB
+System Time: 1669435097.732103, Usage: 1.28%, Memory: 28764 kB
+System Time: 1669435098.732608, Usage: 1.06%, Memory: 28764 kB
+System Time: 1669435099.732860, Usage: 1.74%, Memory: 28764 kB
+System Time: 1669435100.734403, Usage: 2.12%, Memory: 28764 kB
+System Time: 1669435101.734835, Usage: 5.32%, Memory: 28764 kB
+System Time: 1669435102.740183, Usage: 1.19%, Memory: 28764 kB
+System Time: 1669435103.739252, Usage: 2.05%, Memory: 28764 kB
+System Time: 1669435104.742177, Usage: 2.96%, Memory: 28764 kB
+System Time: 1669435105.739274, Usage: 19.89%, Memory: 28884 kB
+System Time: 1669435106.744035, Usage: 1.89%, Memory: 28888 kB
+System Time: 1669435107.744397, Usage: 2.11%, Memory: 28888 kB
+System Time: 1669435108.745741, Usage: 1.98%, Memory: 28888 kB
+System Time: 1669435109.742947, Usage: 2.21%, Memory: 28888 kB
+System Time: 1669435110.744627, Usage: 0.91%, Memory: 28888 kB
+System Time: 1669435111.745999, Usage: 1.56%, Memory: 28888 kB
+System Time: 1669435112.746766, Usage: 1.07%, Memory: 28888 kB
+CPU Temperature: 40.407
+2022-11-25 21:58:33,522 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
