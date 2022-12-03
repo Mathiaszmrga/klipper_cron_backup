@@ -19,7 +19,7 @@ port = 7125
 max_upload_size = 1024
 
 [file_manager]
-enable_object_processing = False
+enable_object_processing = True
 
 [authorization]
 cors_domains = 
@@ -141,85 +141,65 @@ Properties:
 **ExecStart=/home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
 **FragmentPath=/etc/systemd/system/klipper.service
 Klipper Version: v0.10.0-635-gcfb633a0
-2022-12-01 01:11:45,351 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.66
-2022-12-01 01:11:45,352 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 3.51ms
-2022-12-01 01:11:45,353 [websockets.py:open()] - Websocket Opened: ID: 2818844528, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
-2022-12-01 01:11:45,361 [websockets.py:_handle_identify()] - Websocket 2818844528 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
-2022-12-01 01:11:48,571 [shell_command.py:run_with_response()] - /home/pi/moonraker-env/bin/python: Object Processing is disabled
-
-2022-12-01 01:11:48,571 [shell_command.py:_check_proc_success()] - Command (/home/pi/moonraker-env/bin/python /home/pi/moonraker/moonraker/components/file_manager/metadata.py -p /home/pi/printer_data/gcodes -f "Cuerpo.gcode") successfully finished
-2022-12-01 01:11:48,584 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 722.94ms
-2022-12-01 01:11:53,334 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
-2022-12-01 01:11:54,388 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
-2022-12-01 01:11:55,645 [klippy_connection.py:_do_connect()] - Klippy Connection Established
-2022-12-01 01:11:56,156 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
-2022-12-01 01:11:56,161 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
-2022-12-01 01:11:59,165 [job_state.py:_handle_started()] - Job state initialized: standby
-2022-12-01 01:11:59,438 [klippy_connection.py:_check_ready()] - Klippy ready
-2022-12-01 01:11:59,929 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
-2022-12-01 01:12:12,205 [job_state.py:_status_update()] - Job Started: Cuerpo.gcode
-2022-12-01 01:24:13,303 [websockets.py:on_close()] - Websocket Closed: ID: 2818844528 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 7.94
-2022-12-01 01:44:36,075 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 6.51ms
-2022-12-01 01:44:36,076 [websockets.py:open()] - Websocket Opened: ID: 3052416272, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36, Host Name: 192.168.1.90
-2022-12-01 01:44:36,084 [websockets.py:_handle_identify()] - Websocket 3052416272 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
-2022-12-01 01:44:40,569 [websockets.py:on_close()] - Websocket Closed: ID: 3052416272 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.50
-2022-12-01 02:04:57,832 [update_manager.py:_handle_auto_refresh()] - Klippy is printing, auto refresh aborted
-2022-12-01 02:27:24,894 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-01 02:27:24,899 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-01 02:27:54,936 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-01 02:28:04,948 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-01 02:28:04,950 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-01 02:30:55,139 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-01 02:30:55,141 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-01 02:31:05,145 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-01 02:31:05,148 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-01 02:44:58,566 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
-2022-12-01 03:04:57,777 [update_manager.py:_handle_auto_refresh()] - Klippy is printing, auto refresh aborted
-2022-12-01 03:40:30,399 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
-2022-12-01 03:40:30,400 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
-2022-12-01 03:40:30,403 [proc_stats.py:_handle_shutdown()] - 
+2022-12-03 00:14:29,271 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
+2022-12-03 00:14:29,438 [update_manager.py:_handle_auto_refresh()] - Klippy is printing, auto refresh aborted
+2022-12-03 01:20:14,620 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-12-03 01:20:14,622 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-12-03 01:20:14,627 [proc_stats.py:_handle_shutdown()] - 
 Moonraker System Usage Statistics:
-System Time: 1669887600.738958, Usage: 5.61%, Memory: 29448 kB
-System Time: 1669887601.738570, Usage: 1.75%, Memory: 29448 kB
-System Time: 1669887602.739588, Usage: 1.69%, Memory: 29448 kB
-System Time: 1669887603.740962, Usage: 1.61%, Memory: 29448 kB
-System Time: 1669887604.740939, Usage: 1.63%, Memory: 29448 kB
-System Time: 1669887605.742108, Usage: 1.64%, Memory: 29448 kB
-System Time: 1669887606.743778, Usage: 1.65%, Memory: 29448 kB
-System Time: 1669887607.745722, Usage: 1.61%, Memory: 29448 kB
-System Time: 1669887608.748390, Usage: 1.63%, Memory: 29448 kB
-System Time: 1669887609.750671, Usage: 1.65%, Memory: 29448 kB
-System Time: 1669887610.753638, Usage: 5.5%, Memory: 29448 kB
-System Time: 1669887611.754797, Usage: 1.74%, Memory: 29448 kB
-System Time: 1669887612.756888, Usage: 1.66%, Memory: 29448 kB
-System Time: 1669887613.757438, Usage: 1.62%, Memory: 29448 kB
-System Time: 1669887614.758649, Usage: 1.62%, Memory: 29448 kB
-System Time: 1669887615.759702, Usage: 1.62%, Memory: 29448 kB
-System Time: 1669887616.761298, Usage: 1.59%, Memory: 29448 kB
-System Time: 1669887617.761339, Usage: 1.63%, Memory: 29448 kB
-System Time: 1669887618.762637, Usage: 1.66%, Memory: 29448 kB
-System Time: 1669887619.764352, Usage: 1.59%, Memory: 29448 kB
-System Time: 1669887620.766182, Usage: 5.5%, Memory: 29448 kB
-System Time: 1669887621.766158, Usage: 1.72%, Memory: 29448 kB
-System Time: 1669887622.766837, Usage: 1.6%, Memory: 29448 kB
-System Time: 1669887623.768047, Usage: 1.55%, Memory: 29448 kB
-System Time: 1669887624.768890, Usage: 1.57%, Memory: 29448 kB
-System Time: 1669887625.765425, Usage: 1.63%, Memory: 29448 kB
-System Time: 1669887626.767817, Usage: 0.86%, Memory: 29448 kB
-System Time: 1669887627.767707, Usage: 0.94%, Memory: 29448 kB
-System Time: 1669887628.769368, Usage: 0.8%, Memory: 29448 kB
-System Time: 1669887629.770844, Usage: 0.76%, Memory: 29448 kB
-CPU Temperature: 38.946
-2022-12-01 03:40:30,418 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
-2022-12-01 21:53:03,399 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-01 21:53:03,401 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-01 21:53:13,398 [machine.py:_find_public_ip()] - Detected Local IP: 169.254.16.182
-2022-12-01 21:53:13,400 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://169.254.16.182
-2022-12-01 21:53:43,433 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-01 21:53:43,436 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-01 21:55:13,524 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-01 21:55:13,527 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-01 22:18:54,892 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-01 22:18:54,895 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-01 22:19:24,929 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-01 22:19:24,932 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+System Time: 1670051985.249786, Usage: 2.25%, Memory: 28716 kB
+System Time: 1670051986.250632, Usage: 2.58%, Memory: 28716 kB
+System Time: 1670051987.253308, Usage: 2.16%, Memory: 28716 kB
+System Time: 1670051988.255215, Usage: 2.2%, Memory: 28716 kB
+System Time: 1670051989.256895, Usage: 2.39%, Memory: 28716 kB
+System Time: 1670051990.259399, Usage: 2.16%, Memory: 28716 kB
+System Time: 1670051991.263059, Usage: 5.93%, Memory: 28716 kB
+System Time: 1670051992.263274, Usage: 2.43%, Memory: 28716 kB
+System Time: 1670051993.263461, Usage: 2.29%, Memory: 28716 kB
+System Time: 1670051994.264853, Usage: 2.15%, Memory: 28716 kB
+System Time: 1670051995.265667, Usage: 2.26%, Memory: 28716 kB
+System Time: 1670051996.266372, Usage: 2.54%, Memory: 28716 kB
+System Time: 1670051997.267316, Usage: 2.22%, Memory: 28716 kB
+System Time: 1670051998.268178, Usage: 2.23%, Memory: 28716 kB
+System Time: 1670051999.268547, Usage: 2.1%, Memory: 28716 kB
+System Time: 1670052000.269856, Usage: 2.17%, Memory: 28716 kB
+System Time: 1670052001.271754, Usage: 5.89%, Memory: 28716 kB
+System Time: 1670052002.271903, Usage: 2.4%, Memory: 28716 kB
+System Time: 1670052003.272950, Usage: 2.18%, Memory: 28716 kB
+System Time: 1670052004.275457, Usage: 2.22%, Memory: 28716 kB
+System Time: 1670052005.275997, Usage: 2.22%, Memory: 28716 kB
+System Time: 1670052006.276830, Usage: 2.5%, Memory: 28716 kB
+System Time: 1670052007.278754, Usage: 2.18%, Memory: 28716 kB
+System Time: 1670052008.279448, Usage: 2.2%, Memory: 28716 kB
+System Time: 1670052009.280191, Usage: 2.24%, Memory: 28716 kB
+System Time: 1670052010.277453, Usage: 2.39%, Memory: 28716 kB
+System Time: 1670052011.278716, Usage: 3.02%, Memory: 28716 kB
+System Time: 1670052012.280420, Usage: 1.13%, Memory: 28716 kB
+System Time: 1670052013.281241, Usage: 1.4%, Memory: 28716 kB
+System Time: 1670052014.281588, Usage: 1.42%, Memory: 28716 kB
+CPU Temperature: 40.407
+2022-12-03 01:20:14,648 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2022-12-03 01:20:55,742 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
+2022-12-03 01:20:56,802 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-03 01:20:58,061 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-03 01:20:58,366 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-03 01:20:58,373 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-03 01:21:01,375 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-03 01:21:01,652 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-03 01:21:02,150 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-03 01:23:47,872 [job_state.py:_status_update()] - Job Started: paste_holder_default.gcode
+2022-12-03 01:23:51,922 [websockets.py:on_close()] - Websocket Closed: ID: 2789190000 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.96
+2022-12-03 01:28:23,237 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.66
+2022-12-03 01:28:23,240 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 6.49ms
+2022-12-03 01:28:23,241 [websockets.py:open()] - Websocket Opened: ID: 2818195632, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-12-03 01:28:23,249 [websockets.py:_handle_identify()] - Websocket 2818195632 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-12-03 01:28:24,881 [websockets.py:on_close()] - Websocket Closed: ID: 2818195632 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 1.65
+2022-12-03 01:28:26,197 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 4.16ms
+2022-12-03 01:28:26,198 [websockets.py:open()] - Websocket Opened: ID: 2818514096, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-12-03 01:28:26,212 [websockets.py:_handle_identify()] - Websocket 2818514096 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-12-03 02:14:29,286 [update_manager.py:_handle_auto_refresh()] - Klippy is printing, auto refresh aborted
+2022-12-03 02:29:29,299 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
+2022-12-03 02:50:54,036 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.66
+2022-12-03 03:14:29,384 [update_manager.py:_handle_auto_refresh()] - Klippy is printing, auto refresh aborted
+2022-12-03 03:54:29,331 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
+2022-12-03 04:33:12,639 [websockets.py:on_close()] - Websocket Closed: ID: 2818514096 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.43
