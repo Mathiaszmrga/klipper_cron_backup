@@ -141,35 +141,295 @@ Properties:
 **ExecStart=/home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
 **FragmentPath=/etc/systemd/system/klipper.service
 Klipper Version: v0.10.0-635-gcfb633a0
-2022-12-05 01:16:17,579 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-05 01:16:17,581 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-05 01:16:27,590 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-05 01:16:27,592 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-05 01:17:27,638 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-05 01:17:27,639 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-05 01:17:37,650 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-05 01:17:37,652 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-05 02:58:23,561 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-05 02:58:23,562 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-05 02:58:33,570 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-05 02:58:33,573 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-05 02:59:13,607 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-05 02:59:13,608 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-05 02:59:23,621 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-05 02:59:23,623 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-05 04:21:38,346 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-05 04:21:38,347 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-05 04:21:48,349 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-05 04:21:48,351 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-05 04:22:08,384 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-05 04:22:08,387 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-05 04:22:18,386 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-05 04:22:18,389 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-05 05:37:52,810 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-05 05:37:52,812 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-05 05:38:02,817 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-05 05:38:02,819 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2022-12-05 05:38:32,860 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2022-12-05 05:38:32,862 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2022-12-05 05:38:42,860 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2022-12-05 05:38:42,862 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+2022-12-06 03:57:41,904 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.66
+2022-12-06 03:57:41,906 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 3.76ms
+2022-12-06 03:57:41,906 [websockets.py:open()] - Websocket Opened: ID: 2818741456, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-12-06 03:57:41,914 [websockets.py:_handle_identify()] - Websocket 2818741456 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-12-06 04:00:04,677 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 10.79ms
+2022-12-06 04:00:04,745 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:00:06,002 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:00:06,370 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
+2022-12-06 04:00:06,371 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:00:06,376 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:00:06,380 [klippy_connection.py:_check_ready()] - 
+pin PA5 used multiple times in config
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:00:07,990 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:00:09,247 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:00:09,546 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:00:09,548 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:00:09,552 [klippy_connection.py:_check_ready()] - 
+pin PA5 used multiple times in config
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:07:07,156 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.01ms
+2022-12-06 04:08:09,833 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 17.48ms
+2022-12-06 04:08:10,476 [klippy_connection.py:close()] - Error closing Klippy Unix Socket
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 577, in close
+    await self.writer.wait_closed()
+  File "/usr/lib/python3.7/asyncio/streams.py", line 323, in wait_closed
+    await self._protocol._closed
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 143, in _read_stream
+    data = await reader.readuntil(b'\x03')
+  File "/usr/lib/python3.7/asyncio/streams.py", line 588, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.7/asyncio/streams.py", line 473, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.7/asyncio/selector_events.py", line 801, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-12-06 04:08:10,476 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:08:10,479 [websockets.py:build_error()] - JSON-RPC Request Error: 503
+Klippy Disconnected
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 351, in func
+    user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 481, in request
+    return await self._request_standard(web_request)
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 536, in _request_standard
+    return await base_request.wait()
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
+    raise self.response
+utils.ServerError: Klippy Disconnected
+2022-12-06 04:08:11,737 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:08:12,035 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:08:12,036 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:08:12,040 [klippy_connection.py:_check_ready()] - 
+Internal error during connect: 'PrinterMultiPin' object has no attribute 'setup_adc_callback'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:08:35,408 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 15.39ms
+2022-12-06 04:08:49,322 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.37ms
+2022-12-06 04:08:49,965 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:08:51,224 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:08:51,524 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:08:51,526 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:08:51,530 [klippy_connection.py:_check_ready()] - 
+Unknown pin chip name 'multi_pin'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:11:35,310 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:11:36,573 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:11:36,876 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:11:36,878 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:11:36,883 [klippy_connection.py:_check_ready()] - 
+Unknown pin chip name 'multi_pin'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:11:55,313 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 18.48ms
+2022-12-06 04:12:06,703 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 17.79ms
+2022-12-06 04:12:16,172 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 17.94ms
+2022-12-06 04:12:23,198 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 19.02ms
+2022-12-06 04:12:23,841 [klippy_connection.py:close()] - Error closing Klippy Unix Socket
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 577, in close
+    await self.writer.wait_closed()
+  File "/usr/lib/python3.7/asyncio/streams.py", line 323, in wait_closed
+    await self._protocol._closed
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 143, in _read_stream
+    data = await reader.readuntil(b'\x03')
+  File "/usr/lib/python3.7/asyncio/streams.py", line 588, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.7/asyncio/streams.py", line 473, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.7/asyncio/selector_events.py", line 801, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-12-06 04:12:23,842 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:12:23,845 [websockets.py:build_error()] - JSON-RPC Request Error: 503
+Klippy Disconnected
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 351, in func
+    user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 481, in request
+    return await self._request_standard(web_request)
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 536, in _request_standard
+    return await base_request.wait()
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
+    raise self.response
+utils.ServerError: Klippy Disconnected
+2022-12-06 04:12:25,102 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:12:25,403 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:12:25,405 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:12:25,409 [klippy_connection.py:_check_ready()] - 
+Internal error during connect: 'PrinterMultiPin' object has no attribute 'setup_adc_callback'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:13:40,664 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 17.54ms
+2022-12-06 04:13:45,982 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:13:47,242 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:13:47,539 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:13:47,540 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:13:47,544 [klippy_connection.py:_check_ready()] - 
+Internal error during connect: 'PrinterMultiPin' object has no attribute 'setup_adc_callback'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:14:49,453 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 18.90ms
+2022-12-06 04:14:50,095 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:14:51,360 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:14:51,662 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:14:51,664 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:14:51,669 [klippy_connection.py:_check_ready()] - 
+pin PA5 used multiple times in config
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:15:07,280 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 19.32ms
+2022-12-06 04:15:07,924 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:15:09,185 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:15:09,514 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:15:09,520 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:15:12,522 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-06 04:15:12,795 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-06 04:15:13,286 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-06 04:17:52,317 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 15.33ms
+2022-12-06 04:17:53,430 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:17:54,689 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:17:55,024 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:17:55,026 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:17:55,030 [klippy_connection.py:_check_ready()] - 
+Option 'temperature1' in section 'thermistor SL' must be specified
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:19:30,928 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 17.43ms
+2022-12-06 04:19:31,586 [klippy_connection.py:close()] - Error closing Klippy Unix Socket
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 577, in close
+    await self.writer.wait_closed()
+  File "/usr/lib/python3.7/asyncio/streams.py", line 323, in wait_closed
+    await self._protocol._closed
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 143, in _read_stream
+    data = await reader.readuntil(b'\x03')
+  File "/usr/lib/python3.7/asyncio/streams.py", line 588, in readuntil
+    await self._wait_for_data('readuntil')
+  File "/usr/lib/python3.7/asyncio/streams.py", line 473, in _wait_for_data
+    await self._waiter
+  File "/usr/lib/python3.7/asyncio/selector_events.py", line 801, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 104] Connection reset by peer
+2022-12-06 04:19:31,586 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:19:31,590 [websockets.py:build_error()] - JSON-RPC Request Error: 503
+Klippy Disconnected
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 351, in func
+    user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 481, in request
+    return await self._request_standard(web_request)
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 536, in _request_standard
+    return await base_request.wait()
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 608, in wait
+    raise self.response
+utils.ServerError: Klippy Disconnected
+2022-12-06 04:19:32,847 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:19:33,146 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:19:33,151 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:19:35,682 [klippy_connection.py:_check_ready()] - 
+Pin 'SL' is not a valid pin name on mcu 'mcu'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:19:51,161 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 18.03ms
+2022-12-06 04:19:51,261 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:19:52,520 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:19:52,821 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:19:52,823 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:19:52,828 [klippy_connection.py:_check_ready()] - 
+Unknown pin chip name 'temperature_sensor'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-06 04:20:09,322 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 19.59ms
+2022-12-06 04:20:09,968 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:20:11,227 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:20:11,540 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:20:11,545 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:20:14,547 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-06 04:20:14,822 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-06 04:20:15,314 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-06 04:23:29,515 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 18.82ms
+2022-12-06 04:23:32,949 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 13.90ms
+2022-12-06 04:23:34,062 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-06 04:23:35,320 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-06 04:23:35,655 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-06 04:23:35,661 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-06 04:23:38,665 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-06 04:23:38,940 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-06 04:23:39,432 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-06 04:27:13,647 [app.py:log_request()] - 404 GET /server/files/gcodes/.thumbs/tapeholder-32x32.png?timestamp=1670103302.5494552 (192.168.1.66) [No User] 17.04ms
+2022-12-06 04:27:36,394 [app.py:log_request()] - 404 GET /server/files/gcodes/.thumbs/tapeholder-32x32.png?timestamp=1670103302.5494552 (192.168.1.66) [No User] 6.78ms
+2022-12-06 04:29:56,250 [websockets.py:on_close()] - Websocket Closed: ID: 2818741456 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.34
+2022-12-06 04:29:58,738 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-12-06 04:29:58,738 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-12-06 04:29:58,741 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1670322569.107021, Usage: 2.09%, Memory: 29524 kB
+System Time: 1670322570.107952, Usage: 2.06%, Memory: 29524 kB
+System Time: 1670322571.109497, Usage: 2.14%, Memory: 29524 kB
+System Time: 1670322572.110188, Usage: 2.38%, Memory: 29524 kB
+System Time: 1670322573.111829, Usage: 2.01%, Memory: 29524 kB
+System Time: 1670322574.113457, Usage: 2.1%, Memory: 29524 kB
+System Time: 1670322575.115915, Usage: 5.94%, Memory: 29524 kB
+System Time: 1670322576.115743, Usage: 2.38%, Memory: 29524 kB
+System Time: 1670322577.117280, Usage: 2.16%, Memory: 29524 kB
+System Time: 1670322578.118338, Usage: 2.11%, Memory: 29524 kB
+System Time: 1670322579.119919, Usage: 2.19%, Memory: 29524 kB
+System Time: 1670322580.121983, Usage: 2.1%, Memory: 29524 kB
+System Time: 1670322581.124517, Usage: 2.12%, Memory: 29524 kB
+System Time: 1670322582.125669, Usage: 2.44%, Memory: 29524 kB
+System Time: 1670322583.126825, Usage: 2.15%, Memory: 29524 kB
+System Time: 1670322584.128132, Usage: 2.07%, Memory: 29524 kB
+System Time: 1670322585.131084, Usage: 6.35%, Memory: 29524 kB
+System Time: 1670322586.130740, Usage: 2.2%, Memory: 29524 kB
+System Time: 1670322587.131329, Usage: 2.12%, Memory: 29524 kB
+System Time: 1670322588.132332, Usage: 2.1%, Memory: 29524 kB
+System Time: 1670322589.133737, Usage: 2.14%, Memory: 29524 kB
+System Time: 1670322590.134507, Usage: 2.06%, Memory: 29524 kB
+System Time: 1670322591.135124, Usage: 2.11%, Memory: 29524 kB
+System Time: 1670322592.135887, Usage: 2.46%, Memory: 29524 kB
+System Time: 1670322593.137371, Usage: 2.1%, Memory: 29524 kB
+System Time: 1670322594.137469, Usage: 2.36%, Memory: 29524 kB
+System Time: 1670322595.141716, Usage: 6.36%, Memory: 29524 kB
+System Time: 1670322596.136832, Usage: 1.75%, Memory: 29524 kB
+System Time: 1670322597.137667, Usage: 1.14%, Memory: 29524 kB
+System Time: 1670322598.139125, Usage: 0.75%, Memory: 29524 kB
+CPU Temperature: 35.537
+2022-12-06 04:29:58,755 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2022-12-06 05:26:21,698 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
