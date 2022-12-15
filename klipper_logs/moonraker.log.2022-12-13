@@ -1,0 +1,247 @@
+--------------------Moonraker Log Start--------------------
+data_path: /home/pi/printer_data
+is_default_data_path: False
+config_file: /home/pi/klipper_config/moonraker.conf
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+log_file: /home/pi/klipper_logs/moonraker.log
+software_version: v0.7.1-773-g362bc1a
+python_version: 3.7.3 (default, Jan 22 2021, 20:04:44)  [GCC 8.3.0]
+
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+
+[file_manager]
+enable_object_processing = True
+
+[authorization]
+cors_domains = 
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+
+[octoprint_compat]
+
+[history]
+
+[announcements]
+subscriptions = 
+	mainsail
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+
+[power mainpower]
+type = gpio
+pin = gpiochip0/gpio18
+off_when_shutdown = true
+restart_klipper_when_powered = true
+initial_state = off
+locked_while_printing = false
+on_when_job_queued = false
+
+#################################################################
+All Configuration Files:
+/home/pi/klipper_config/moonraker.conf
+#################################################################
+Unsafe Shutdown Count: 60
+
+System Info:
+
+***python***
+  version: sys.version_info(major=3, minor=7, micro=3, releaselevel='final', serial=0)
+  version_string: 3.7.3 (default, Jan 22 2021, 20:04:44)  [GCC 8.3.0]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 32bit
+  processor: armv7l
+  cpu_desc: ARMv7 Processor rev 3 (v7l)
+  serial_number: 100000009514db42
+  hardware_desc: BCM2711
+  model: Raspberry Pi 4 Model B Rev 1.4
+  total_memory: 7904580
+  memory_units: kB
+
+***sd_info***
+
+***distribution***
+  name: Raspbian GNU/Linux 10 (buster)
+  id: raspbian
+  version: 10
+  version_parts: {'major': '10', 'minor': '', 'build_number': ''}
+  like: debian
+  codename: buster
+  release_info: {'name': 'MainsailOS', 'version_id': '0.7.1', 'codename': 'buster', 'id': 'mainsailos'}
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+libgpiod version: 1.2
+
+Systemd unit moonraker.service:
+unit_name: moonraker.service
+is_default: True
+Properties:
+**Requires=['-.mount', 'sysinit.target', 'network-online.target', 'system.slice']
+**After=['sysinit.target', 'network-online.target', '-.mount', 'klipper.service', 'basic.target', 'system.slice', 'systemd-journald.socket']
+**SupplementaryGroups=['moonraker-admin']
+**EnvironmentFiles=/home/pi/printer_data/systemd/moonraker.env
+**ExecStart=/home/pi/moonraker-env/bin/python $MOONRAKER_ARGS
+**WorkingDirectory=/home/pi/moonraker
+**FragmentPath=/etc/systemd/system/moonraker.service
+**Description=API Server for Klipper SV1
+**User=pi
+
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+Properties:
+**Description=Starts Klipper and provides klippy Unix Domain Socket API
+**ExecStart=/home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
+**FragmentPath=/etc/systemd/system/klipper.service
+Klipper Version: v0.10.0-635-gcfb633a0
+2022-12-13 17:24:57,930 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.66
+2022-12-13 17:24:57,934 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 8.66ms
+2022-12-13 17:24:57,935 [websockets.py:open()] - Websocket Opened: ID: 2799514000, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-12-13 17:24:57,949 [websockets.py:_handle_identify()] - Websocket 2799514000 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-12-13 17:25:08,371 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
+2022-12-13 17:25:10,000 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-13 17:25:11,258 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-13 17:25:11,568 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-13 17:25:11,573 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-13 17:25:14,929 [app.py:register_remote_handler()] - Registering HTTP endpoint: (GET POST) /printer/motion_report/dump_trapq
+2022-12-13 17:25:14,930 [websockets.py:register_api_handler()] - Registering Websocket JSON-RPC methods: printer.motion_report.dump_trapq
+2022-12-13 17:25:15,168 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-13 17:25:15,442 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-13 17:25:15,936 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-13 17:34:22,431 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 32.27ms
+2022-12-13 17:36:04,597 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 19.86ms
+2022-12-13 17:37:18,445 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 19.13ms
+2022-12-13 17:37:19,556 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-13 17:37:20,814 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-13 17:37:21,139 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-13 17:37:21,140 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-13 17:37:21,144 [klippy_connection.py:_check_ready()] - 
+Source contains parsing errors: '/home/pi/klipper_config/macros.cfg'
+	[line 370]: '[gcode_macro PID_BED\n'
+
+Once the underlying issue is corrected, use the "RESTART"
+command to reload the config and restart the host software.
+Printer is halted
+
+2022-12-13 17:37:40,304 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.25ms
+2022-12-13 17:37:40,323 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-13 17:37:41,584 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-13 17:37:41,915 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-13 17:37:41,922 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-13 17:37:44,925 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-13 17:37:45,197 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-13 17:37:45,686 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-13 17:38:33,654 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 19.16ms
+2022-12-13 17:38:34,769 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-13 17:38:36,031 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-13 17:38:36,381 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-13 17:38:36,387 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-13 17:38:39,391 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-13 17:38:39,663 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-13 17:38:40,161 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-13 17:40:13,392 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 22.21ms
+2022-12-13 17:40:14,502 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-13 17:40:15,760 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-13 17:40:16,098 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-13 17:40:16,104 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-13 17:40:19,107 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-13 17:40:19,380 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-13 17:40:19,882 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-13 17:43:36,584 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 22.71ms
+2022-12-13 17:47:22,431 [app.py:log_request()] - 201 POST /server/files/upload (192.168.1.66) [_TRUSTED_USER_] 20.49ms
+2022-12-13 17:47:23,544 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2022-12-13 17:47:24,801 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2022-12-13 17:47:25,178 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2022-12-13 17:47:25,185 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2022-12-13 17:47:28,186 [job_state.py:_handle_started()] - Job state initialized: standby
+2022-12-13 17:47:28,461 [klippy_connection.py:_check_ready()] - Klippy ready
+2022-12-13 17:47:28,954 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2022-12-13 17:50:53,403 [websockets.py:on_close()] - Websocket Closed: ID: 2799514000 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.46
+2022-12-13 17:50:54,032 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2022-12-13 17:50:54,032 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2022-12-13 17:50:54,035 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1670975424.411859, Usage: 2.03%, Memory: 28976 kB
+System Time: 1670975425.413846, Usage: 2.06%, Memory: 28976 kB
+System Time: 1670975426.416208, Usage: 2.15%, Memory: 28976 kB
+System Time: 1670975427.416897, Usage: 2.13%, Memory: 28976 kB
+System Time: 1670975428.417720, Usage: 2.47%, Memory: 28976 kB
+System Time: 1670975429.420952, Usage: 6.19%, Memory: 28976 kB
+System Time: 1670975430.420341, Usage: 2.28%, Memory: 28976 kB
+System Time: 1670975431.421369, Usage: 2.07%, Memory: 28976 kB
+System Time: 1670975432.422403, Usage: 2.13%, Memory: 28976 kB
+System Time: 1670975433.423248, Usage: 2.15%, Memory: 28976 kB
+System Time: 1670975434.423820, Usage: 2.13%, Memory: 28976 kB
+System Time: 1670975435.424209, Usage: 2.13%, Memory: 28976 kB
+System Time: 1670975436.425767, Usage: 2.02%, Memory: 28976 kB
+System Time: 1670975437.427282, Usage: 2.17%, Memory: 28976 kB
+System Time: 1670975438.428959, Usage: 2.48%, Memory: 28976 kB
+System Time: 1670975439.432220, Usage: 6.06%, Memory: 28976 kB
+System Time: 1670975440.431782, Usage: 2.38%, Memory: 28976 kB
+System Time: 1670975441.432386, Usage: 2.19%, Memory: 28976 kB
+System Time: 1670975442.434963, Usage: 2.04%, Memory: 28976 kB
+System Time: 1670975443.435819, Usage: 2.95%, Memory: 28976 kB
+System Time: 1670975444.438214, Usage: 2.8%, Memory: 28976 kB
+System Time: 1670975445.439036, Usage: 2.1%, Memory: 28976 kB
+System Time: 1670975446.439733, Usage: 2.13%, Memory: 28976 kB
+System Time: 1670975447.440201, Usage: 2.13%, Memory: 28976 kB
+System Time: 1670975448.441880, Usage: 2.23%, Memory: 28976 kB
+System Time: 1670975449.444019, Usage: 6.43%, Memory: 28976 kB
+System Time: 1670975450.439952, Usage: 1.64%, Memory: 28976 kB
+System Time: 1670975451.440387, Usage: 1.07%, Memory: 28976 kB
+System Time: 1670975452.441786, Usage: 1.02%, Memory: 28976 kB
+System Time: 1670975453.442332, Usage: 1.46%, Memory: 28976 kB
+CPU Temperature: 35.537
+2022-12-13 17:50:54,058 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2022-12-13 17:58:25,505 [app.py:log_request()] - 101 GET /websocket (192.168.1.66) [_TRUSTED_USER_] 2.86ms
+2022-12-13 17:58:25,505 [websockets.py:open()] - Websocket Opened: ID: 2799025840, Proxied: True, User Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36, Host Name: 192.168.1.90
+2022-12-13 17:58:25,512 [websockets.py:_handle_identify()] - Websocket 2799025840 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2022-12-13 17:59:09,577 [websockets.py:on_close()] - Websocket Closed: ID: 2799025840 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 4.07
+2022-12-13 19:01:42,389 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
