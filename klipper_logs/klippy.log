@@ -162,11 +162,11 @@ gcode =
 	RUN_SHELL_COMMAND CMD=SPEAK PARAMS="print_starting"
 	
 	
-	{% if filament_settings == 'Hatchbox_white_PLA' %}
+	{% if filament_settings == 'Generic_PLA' %}
 	{% set PA = 0.045|string %}
 	{% set RL = 0.8|string %}
 	{% set RS = 50|string %}
-	{% set UEL = 0|string %}
+	{% set UEL = 0.1|string %}
 	{% set US = 10|string %}
 	SET_PRESSURE_ADVANCE ADVANCE={PA}
 	SET_RETRACTION RETRACT_LENGTH={RL}
@@ -177,26 +177,11 @@ gcode =
 	RESPOND TYPE=command MSG="Retraction lenght: {RL}"
 	RESPOND TYPE=command MSG="Retraction speed {RS}"
 	
-	{% elif filament_settings == 'Generic_PLA' %}
+	{% elif filament_settings == 'Polywood' %}
 	{% set PA = 0.045|string %}
-	{% set RL = 0.8|string %}
+	{% set RL = 2.0|string %}
 	{% set RS = 50|string %}
-	{% set UEL = 0|string %}
-	{% set US = 10|string %}
-	SET_PRESSURE_ADVANCE ADVANCE={PA}
-	SET_RETRACTION RETRACT_LENGTH={RL}
-	SET_RETRACTION RETRACT_SPEED={RS}
-	SET_RETRACTION UNRETRACT_EXTRA_LENGTH={UEL}
-	SET_RETRACTION UNRETRACT_SPEED={US}
-	RESPOND TYPE=command MSG="Pressure advance: {PA}"
-	RESPOND TYPE=command MSG="Retraction lenght: {RL}"
-	RESPOND TYPE=command MSG="Retraction speed {RS}"
-	
-	{% elif filament_settings == 'Generic_ABS' %}
-	{% set PA = 0.045|string %}
-	{% set RL = 0.8|string %}
-	{% set RS = 50|string %}
-	{% set UEL = 0|string %}
+	{% set UEL = 0.1|string %}
 	{% set US = 10|string %}
 	SET_PRESSURE_ADVANCE ADVANCE={PA}
 	SET_RETRACTION RETRACT_LENGTH={RL}
@@ -209,21 +194,21 @@ gcode =
 	{% endif %}
 	
 	
-	{% if print_settings == '0.2mm_PLA_DEFAULT' %}
-	{% set FS = 0|string %}
-	SET_FAN_SPEED FAN=boostFans SPEED={FS}
-	RESPOND TYPE=command MSG="Boost fans: {FS}"
 	
-	{% elif print_settings == '0.2mm_PLA_DRAFT' %}
-	{% set FS = 0.5|string %}
-	SET_FAN_SPEED FAN=boostFans SPEED={FS}
-	RESPOND TYPE=command MSG="Boost fans: {FS}"
 	
-	{% elif print_settings == '0.2mm_PLA_QUICK' %}
-	{% set FS = 1|string %}
-	SET_FAN_SPEED FAN=boostFans SPEED={FS}
-	RESPOND TYPE=command MSG="Boost fans: {FS}"
-	{% endif %}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	NEOPIXEL_DISPLAY LED=underglow TYPE=print_percent MODE=progress
 	G28
@@ -447,37 +432,36 @@ initial_duration = 1
 gcode = 
 	RUN_SHELL_COMMAND CMD=SPEAK PARAMS="Printer_ready"
 
-[gcode_macro PID_EXTRUDER]
-gcode = 
-	{% set TEMPE = params.E_TEMP|default(210)|int %}
-	PID_CALIBRATE HEATER=extruder TARGET=TEMP
-
-[gcode_macro PID_BED]
-gcode = 
-	{% set TEMPB = params.BED_TEMP|default(60)|int %}
-	PID_CALIBRATE HEATER=extruder TARGET=TEMPB
-
 [gcode_macro MAKE_GRAHP]
 gcode = 
 	RUN_SHELL_COMMAND CMD=graph_stats
 
-[gcode_macro FORCE_MOVE_X]
+[gcode_macro M106]
+rename_existing = M106.0
 gcode = 
-	{% set DIST = params.DISTANCE|default(1)|int %}
-	{% set VEL = params.VELOCITY|default(1)|int %}
-	FORCE_MOVE STEPPER=stepper_x DISTANCE=DIST VELOCITY=VEL
-
-[gcode_macro FORCE_MOVE_Y]
-gcode = 
-	{% set DIST = params.DISTANCE|default(1)|int %}
-	{% set VEL = params.VELOCITY|default(1)|int %}
-	FORCE_MOVE STEPPER=stepper_y DISTANCE=DIST VELOCITY=VEL
-
-[gcode_macro FORCE_MOVE_Z]
-gcode = 
-	{% set DIST = params.DISTANCE|default(1)|int %}
-	{% set VEL = params.VELOCITY|default(1)|int %}
-	FORCE_MOVE STEPPER=stepper_z DISTANCE=DIST VELOCITY=VEL
+	
+	{% set fs1 = 247.35|string %}
+	{% set fs2 = 249.9|string %}
+	{% set fs3 = 252.45|string %}
+	{% set fs4 = 255|string %}
+	
+	{% if params.S < fs2 %}
+	SET_FAN_SPEED FAN=boostFans SPEED=0.00
+	{% endif %}
+	
+	{% if params.S >= fs2 and params.S < fs3 %}
+	SET_FAN_SPEED FAN=boostFans SPEED=0.30
+	{% endif %}
+	
+	{% if params.S >= fs3 and params.S < fs4 %}
+	SET_FAN_SPEED FAN=boostFans SPEED=0.60
+	{% endif %}
+	
+	{% if params.S == fs4 %}
+	SET_FAN_SPEED FAN=boostFans SPEED=1.00
+	{% endif %}
+	
+	M106.0 {rawparams}
 
 [temperature_sensor raspberry_pi]
 sensor_type = temperature_host
@@ -832,6 +816,8 @@ screw2_name = back left
 screw3 = 117.5,117.5
 screw3_name = back right
 =======================
+extruder: pressure_advance: 0.045000
+pressure_advance_smooth_time: 0.040000
 Loaded MCU 'mcu' 91 commands (v0.10.0-291-g4ce2d379 / gcc: (15:9-2019-q4-0ubuntu1) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] binutils: (2.34-4ubuntu1+13ubuntu1) 2.34)
 MCU 'mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PF1,PF0 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi2a=PC2,PC3,PB10 BUS_PINS_spi3=PB4,PB5,PB3 CLOCK_FREQ=64000000 MCU=stm32g0b1xx RESERVE_PINS_USB=PA11,PA12 RESERVE_PINS_crystal=PF0,PF1 STATS_SUMSQ_BASE=256 STEPPER_BOTH_EDGE=1
 Configured MCU 'mcu' (1024 moves)
@@ -845,8 +831,8 @@ Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg
 Git version: 'v0.10.0-635-gcfb633a0'
 CPU: 4 core ARMv7 Processor rev 3 (v7l)
 Python: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
-webhooks client 3039320944: {'program': 'Moonraker', 'version': 'v0.7.1-773-g362bc1a'}
-=============== Log rollover at Thu Dec 15 00:00:03 2022 ===============
+webhooks client 3046392528: {'program': 'Moonraker', 'version': 'v0.7.1-773-g362bc1a'}
+=============== Log rollover at Fri Dec 16 00:00:04 2022 ===============
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
