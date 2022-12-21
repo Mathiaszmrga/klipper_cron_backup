@@ -816,6 +816,8 @@ screw2_name = back left
 screw3 = 117.5,117.5
 screw3_name = back right
 =======================
+extruder: pressure_advance: 0.045000
+pressure_advance_smooth_time: 0.040000
 Loaded MCU 'mcu' 91 commands (v0.10.0-291-g4ce2d379 / gcc: (15:9-2019-q4-0ubuntu1) 9.2.1 20191025 (release) [ARM/arm-9-branch revision 277599] binutils: (2.34-4ubuntu1+13ubuntu1) 2.34)
 MCU 'mcu' config: ADC_MAX=4095 BUS_PINS_i2c1=PB6,PB7 BUS_PINS_i2c1a=PF1,PF0 BUS_PINS_spi1=PA6,PA7,PA5 BUS_PINS_spi1a=PB4,PB5,PB3 BUS_PINS_spi2=PB14,PB15,PB13 BUS_PINS_spi2a=PC2,PC3,PB10 BUS_PINS_spi3=PB4,PB5,PB3 CLOCK_FREQ=64000000 MCU=stm32g0b1xx RESERVE_PINS_USB=PA11,PA12 RESERVE_PINS_crystal=PF0,PF1 STATS_SUMSQ_BASE=256 STEPPER_BOTH_EDGE=1
 Configured MCU 'mcu' (1024 moves)
@@ -829,8 +831,8 @@ Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg
 Git version: 'v0.10.0-635-gcfb633a0'
 CPU: 4 core ARMv7 Processor rev 3 (v7l)
 Python: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
-webhooks client 2974584112: {'program': 'Moonraker', 'version': 'v0.7.1-773-g362bc1a'}
-=============== Log rollover at Tue Dec 20 00:00:01 2022 ===============
+webhooks client 2957721680: {'program': 'Moonraker', 'version': 'v0.7.1-773-g362bc1a'}
+=============== Log rollover at Wed Dec 21 00:00:04 2022 ===============
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
