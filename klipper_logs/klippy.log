@@ -831,8 +831,8 @@ Args: ['/home/pi/klipper/klippy/klippy.py', '/home/pi/klipper_config/printer.cfg
 Git version: 'v0.10.0-635-gcfb633a0'
 CPU: 4 core ARMv7 Processor rev 3 (v7l)
 Python: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
-webhooks client 2957721680: {'program': 'Moonraker', 'version': 'v0.7.1-773-g362bc1a'}
-=============== Log rollover at Wed Dec 21 00:00:04 2022 ===============
+webhooks client 2978487728: {'program': 'Moonraker', 'version': 'v0.7.1-773-g362bc1a'}
+=============== Log rollover at Thu Dec 22 00:00:00 2022 ===============
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
