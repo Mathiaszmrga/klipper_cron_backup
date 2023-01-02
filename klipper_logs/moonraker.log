@@ -141,7 +141,7 @@ Properties:
 **ExecStart=/home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
 **FragmentPath=/etc/systemd/system/klipper.service
 Klipper Version: v0.10.0-635-gcfb633a0
-2022-12-26 01:57:46,267 [update_manager.py:refresh()] - Detected 29 package updates:
+2023-01-02 02:57:46,144 [update_manager.py:refresh()] - Detected 30 package updates:
 git
 git-man
 libarchive13
@@ -163,6 +163,7 @@ libnginx-mod-http-xslt-filter
 libnginx-mod-mail
 libnginx-mod-stream
 libntfs-3g883
+mplayer
 nginx
 nginx-common
 nginx-full
@@ -171,21 +172,21 @@ ntfs-3g
 vim-common
 vim-tiny
 xxd
-2022-12-26 01:57:46,288 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker status -u no) successfully finished
-2022-12-26 01:57:46,303 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker config --get branch.master.remote) successfully finished
-2022-12-26 01:57:46,318 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker remote get-url origin) successfully finished
-2022-12-26 01:57:47,207 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker fetch origin --prune --progress) successfully finished
-2022-12-26 01:57:47,232 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
-2022-12-26 01:57:47,258 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker branch --list) successfully finished
-2022-12-26 01:57:47,280 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-parse HEAD) successfully finished
-2022-12-26 01:57:47,340 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe --always --tags --long --dirty) successfully finished
-2022-12-26 01:57:47,368 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-parse origin/master) successfully finished
-2022-12-26 01:57:47,425 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe origin/master --always --tags --long) successfully finished
-2022-12-26 01:57:47,444 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-list --tags --max-count=1) successfully finished
-2022-12-26 01:57:47,462 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe --tags e20c12619bfb9504ef817fcde82752d47e52f145) successfully finished
-2022-12-26 01:57:47,483 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker log 362bc1a3d3ad397416f7fc48b8efe33837428b90..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2022-12-26 01:57:47,502 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2022-12-26 01:57:47,503 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+2023-01-02 02:57:46,165 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker status -u no) successfully finished
+2023-01-02 02:57:46,182 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker config --get branch.master.remote) successfully finished
+2023-01-02 02:57:46,197 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker remote get-url origin) successfully finished
+2023-01-02 02:57:47,023 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker fetch origin --prune --progress) successfully finished
+2023-01-02 02:57:47,044 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2023-01-02 02:57:47,059 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker branch --list) successfully finished
+2023-01-02 02:57:47,074 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-parse HEAD) successfully finished
+2023-01-02 02:57:47,129 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe --always --tags --long --dirty) successfully finished
+2023-01-02 02:57:47,144 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-parse origin/master) successfully finished
+2023-01-02 02:57:47,196 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe origin/master --always --tags --long) successfully finished
+2023-01-02 02:57:47,220 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-list --tags --max-count=1) successfully finished
+2023-01-02 02:57:47,242 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe --tags e20c12619bfb9504ef817fcde82752d47e52f145) successfully finished
+2023-01-02 02:57:47,267 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker log 362bc1a3d3ad397416f7fc48b8efe33837428b90..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2023-01-02 02:57:47,284 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2023-01-02 02:57:47,285 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
 Owner: Arksine
 Repository Name: moonraker
 Path: /home/pi/moonraker
@@ -193,32 +194,32 @@ Remote: origin
 Branch: master
 Remote URL: https://github.com/Arksine/moonraker.git
 Current Commit SHA: 362bc1a3d3ad397416f7fc48b8efe33837428b90
-Upstream Commit SHA: d6b1a724a8f1b9d2826f38d06b4af4e4b2c70d3b
+Upstream Commit SHA: e3bcfb5ea0a3256bdbe19855d20c4431b57cd398
 Current Version: v0.7.1-773
-Upstream Version: v0.7.1-788
+Upstream Version: v0.7.1-791
 Is Dirty: False
 Is Detached: False
-Commits Behind: 15
+Commits Behind: 18
 Tag Data: {}
 Bound Repo: None
 Diverged: False
-2022-12-26 01:57:47,503 [base_deploy.py:log_info()] - Application moonraker: Channel: dev, Need Channel Update: False
-2022-12-26 01:57:47,504 [base_deploy.py:log_info()] - Application moonraker: Validity check for git repo passed
-2022-12-26 01:57:47,530 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper status -u no) successfully finished
-2022-12-26 01:57:47,549 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper config --get branch.master.remote) successfully finished
-2022-12-26 01:57:47,566 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper remote get-url origin) successfully finished
-2022-12-26 01:57:50,188 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper fetch origin --prune --progress) successfully finished
-2022-12-26 01:57:50,208 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
-2022-12-26 01:57:50,228 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper branch --list) successfully finished
-2022-12-26 01:57:50,249 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-parse HEAD) successfully finished
-2022-12-26 01:57:50,393 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe --always --tags --long --dirty) successfully finished
-2022-12-26 01:57:50,416 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-parse origin/master) successfully finished
-2022-12-26 01:57:50,531 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe origin/master --always --tags --long) successfully finished
-2022-12-26 01:57:50,550 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-list --tags --max-count=1) successfully finished
-2022-12-26 01:57:50,566 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe --tags e02b725602067a2cd098a62be9a4bb10fc74a9bd) successfully finished
-2022-12-26 01:57:50,588 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper log cfb633a0ecb21e855781c106fa37a214f3b9a0d3..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2022-12-26 01:57:50,610 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2022-12-26 01:57:50,612 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+2023-01-02 02:57:47,285 [base_deploy.py:log_info()] - Application moonraker: Channel: dev, Need Channel Update: False
+2023-01-02 02:57:47,286 [base_deploy.py:log_info()] - Application moonraker: Validity check for git repo passed
+2023-01-02 02:57:47,309 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper status -u no) successfully finished
+2023-01-02 02:57:47,324 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper config --get branch.master.remote) successfully finished
+2023-01-02 02:57:47,340 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper remote get-url origin) successfully finished
+2023-01-02 02:57:48,886 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper fetch origin --prune --progress) successfully finished
+2023-01-02 02:57:48,904 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2023-01-02 02:57:48,923 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper branch --list) successfully finished
+2023-01-02 02:57:48,940 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-parse HEAD) successfully finished
+2023-01-02 02:57:49,059 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe --always --tags --long --dirty) successfully finished
+2023-01-02 02:57:49,076 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-parse origin/master) successfully finished
+2023-01-02 02:57:49,221 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe origin/master --always --tags --long) successfully finished
+2023-01-02 02:57:49,241 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-list --tags --max-count=1) successfully finished
+2023-01-02 02:57:49,261 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe --tags e02b725602067a2cd098a62be9a4bb10fc74a9bd) successfully finished
+2023-01-02 02:57:49,286 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper log cfb633a0ecb21e855781c106fa37a214f3b9a0d3..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2023-01-02 02:57:49,309 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2023-01-02 02:57:49,310 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
 Owner: Klipper3d
 Repository Name: klipper
 Path: /home/pi/klipper
@@ -226,18 +227,18 @@ Remote: origin
 Branch: master
 Remote URL: https://github.com/Klipper3d/klipper.git
 Current Commit SHA: cfb633a0ecb21e855781c106fa37a214f3b9a0d3
-Upstream Commit SHA: 9b60daf62dd7c02164c53f2baa72e3e6c8af441f
+Upstream Commit SHA: 40d8c2ef1653ed59dc1d9fe4cb4e26b2e98a8967
 Current Version: v0.10.0-635
-Upstream Version: v0.11.0-41
+Upstream Version: v0.11.0-52
 Is Dirty: False
 Is Detached: False
 Commits Behind: 31
 Tag Data: {}
 Bound Repo: None
 Diverged: False
-2022-12-26 01:57:50,612 [base_deploy.py:log_info()] - Application klipper: Channel: dev, Need Channel Update: False
-2022-12-26 01:57:50,612 [base_deploy.py:log_info()] - Application klipper: Validity check for git repo passed
-2022-12-26 01:57:50,928 [update_manager.py:_get_remote_version()] - Github client Info Received:
+2023-01-02 02:57:49,310 [base_deploy.py:log_info()] - Application klipper: Channel: dev, Need Channel Update: False
+2023-01-02 02:57:49,310 [base_deploy.py:log_info()] - Application klipper: Validity check for git repo passed
+2023-01-02 02:57:49,610 [update_manager.py:_get_remote_version()] - Github client Info Received:
 Repo: mainsail
 Local Version: v2.4.0
 Remote Version: v2.4.1
@@ -245,21 +246,21 @@ Pre-release: False
 url: https://github.com/mainsail-crew/mainsail/releases/download/v2.4.1/mainsail.zip
 size: 2267577
 Content Type: application/zip
-2022-12-26 01:57:50,948 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest status -u no) successfully finished
-2022-12-26 01:57:50,963 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest config --get branch.master.remote) successfully finished
-2022-12-26 01:57:50,982 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest remote get-url origin) successfully finished
-2022-12-26 01:57:51,496 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest fetch origin --prune --progress) successfully finished
-2022-12-26 01:57:51,516 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
-2022-12-26 01:57:51,532 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest branch --list) successfully finished
-2022-12-26 01:57:51,547 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-parse HEAD) successfully finished
-2022-12-26 01:57:51,568 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe --always --tags --long --dirty) successfully finished
-2022-12-26 01:57:51,583 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-parse origin/master) successfully finished
-2022-12-26 01:57:51,606 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe origin/master --always --tags --long) successfully finished
-2022-12-26 01:57:51,626 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-list --tags --max-count=1) successfully finished
-2022-12-26 01:57:51,644 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe --tags 957207b44874a5c5faa76fed157197590b9dc43f) successfully finished
-2022-12-26 01:57:51,667 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest log df8a6962ef634d03de254f1358be2a2b9378c7cc..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2022-12-26 01:57:51,686 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2022-12-26 01:57:51,686 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+2023-01-02 02:57:49,631 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest status -u no) successfully finished
+2023-01-02 02:57:49,646 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest config --get branch.master.remote) successfully finished
+2023-01-02 02:57:49,661 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest remote get-url origin) successfully finished
+2023-01-02 02:57:54,070 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest fetch origin --prune --progress) successfully finished
+2023-01-02 02:57:54,089 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
+2023-01-02 02:57:54,107 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest branch --list) successfully finished
+2023-01-02 02:57:54,122 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-parse HEAD) successfully finished
+2023-01-02 02:57:54,144 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe --always --tags --long --dirty) successfully finished
+2023-01-02 02:57:54,159 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-parse origin/master) successfully finished
+2023-01-02 02:57:54,179 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe origin/master --always --tags --long) successfully finished
+2023-01-02 02:57:54,198 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-list --tags --max-count=1) successfully finished
+2023-01-02 02:57:54,215 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe --tags 957207b44874a5c5faa76fed157197590b9dc43f) successfully finished
+2023-01-02 02:57:54,240 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest log df8a6962ef634d03de254f1358be2a2b9378c7cc..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2023-01-02 02:57:54,267 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2023-01-02 02:57:54,268 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
 Owner: mainsail-crew
 Repository Name: crowsnest
 Path: /home/pi/crowsnest
@@ -267,30 +268,30 @@ Remote: origin
 Branch: master
 Remote URL: https://github.com/mainsail-crew/crowsnest.git
 Current Commit SHA: df8a6962ef634d03de254f1358be2a2b9378c7cc
-Upstream Commit SHA: 5e95c0d3bdc9c2b1361b0fd8b5ba9227eb8c3fdd
+Upstream Commit SHA: e21467358e09242de7e4f0826d2268c2e6f5e936
 Current Version: v3.0.3-9
-Upstream Version: v3.0.6-15
+Upstream Version: v3.0.6-16
 Is Dirty: False
 Is Detached: False
-Commits Behind: 25
+Commits Behind: 26
 Tag Data: {}
 Bound Repo: None
 Diverged: False
-2022-12-26 01:57:51,687 [base_deploy.py:log_info()] - Application crowsnest: Channel: dev, Need Channel Update: False
-2022-12-26 01:57:51,687 [base_deploy.py:log_info()] - Application crowsnest: Validity check for git repo passed
-2022-12-26 01:57:51,709 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar status -u no) successfully finished
-2022-12-26 01:57:51,725 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar config --get branch.main.remote) successfully finished
-2022-12-26 01:57:51,742 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar remote get-url origin) successfully finished
-2022-12-26 01:57:52,226 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar fetch origin --prune --progress) successfully finished
-2022-12-26 01:57:52,244 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
-2022-12-26 01:57:52,262 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar branch --list) successfully finished
-2022-12-26 01:57:52,279 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-parse HEAD) successfully finished
-2022-12-26 01:57:52,301 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe --always --tags --long --dirty) successfully finished
-2022-12-26 01:57:52,320 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-parse origin/main) successfully finished
-2022-12-26 01:57:52,339 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe origin/main --always --tags --long) successfully finished
-2022-12-26 01:57:52,358 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-list --tags --max-count=1) successfully finished
-2022-12-26 01:57:52,375 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe --tags 0afc14b9b8b6e438eb449029b2df8f2a5eed42f1) successfully finished
-2022-12-26 01:57:52,376 [git_deploy.py:log_repo_info()] - Git Repo sonar Detected:
+2023-01-02 02:57:54,268 [base_deploy.py:log_info()] - Application crowsnest: Channel: dev, Need Channel Update: False
+2023-01-02 02:57:54,268 [base_deploy.py:log_info()] - Application crowsnest: Validity check for git repo passed
+2023-01-02 02:57:54,301 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar status -u no) successfully finished
+2023-01-02 02:57:54,321 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar config --get branch.main.remote) successfully finished
+2023-01-02 02:57:54,336 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar remote get-url origin) successfully finished
+2023-01-02 02:57:54,795 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar fetch origin --prune --progress) successfully finished
+2023-01-02 02:57:54,811 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
+2023-01-02 02:57:54,827 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar branch --list) successfully finished
+2023-01-02 02:57:54,843 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-parse HEAD) successfully finished
+2023-01-02 02:57:54,861 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe --always --tags --long --dirty) successfully finished
+2023-01-02 02:57:54,877 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-parse origin/main) successfully finished
+2023-01-02 02:57:54,895 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe origin/main --always --tags --long) successfully finished
+2023-01-02 02:57:54,911 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-list --tags --max-count=1) successfully finished
+2023-01-02 02:57:54,927 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe --tags 0afc14b9b8b6e438eb449029b2df8f2a5eed42f1) successfully finished
+2023-01-02 02:57:54,928 [git_deploy.py:log_repo_info()] - Git Repo sonar Detected:
 Owner: mainsail-crew
 Repository Name: sonar
 Path: /home/pi/sonar
@@ -307,5 +308,5 @@ Commits Behind: 0
 Tag Data: {}
 Bound Repo: None
 Diverged: False
-2022-12-26 01:57:52,376 [base_deploy.py:log_info()] - Application sonar: Channel: dev, Need Channel Update: False
-2022-12-26 01:57:52,376 [base_deploy.py:log_info()] - Application sonar: Validity check for git repo passed
+2023-01-02 02:57:54,928 [base_deploy.py:log_info()] - Application sonar: Channel: dev, Need Channel Update: False
+2023-01-02 02:57:54,928 [base_deploy.py:log_info()] - Application sonar: Validity check for git repo passed

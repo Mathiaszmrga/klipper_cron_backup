@@ -832,7 +832,7 @@ Git version: 'v0.10.0-635-gcfb633a0'
 CPU: 4 core ARMv7 Processor rev 3 (v7l)
 Python: '3.7.3 (default, Jan 22 2021, 20:04:44) \n[GCC 8.3.0]'
 webhooks client 3039688688: {'program': 'Moonraker', 'version': 'v0.7.1-773-g362bc1a'}
-=============== Log rollover at Sun Jan  1 00:00:01 2023 ===============
+=============== Log rollover at Mon Jan  2 00:00:04 2023 ===============
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
@@ -4331,6 +4331,7 @@ b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
+Resetting prediction variance 1256070.442: freq=48013152 diff=-29221 stddev=5707.226
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
@@ -4451,6 +4452,7 @@ b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
+Resetting prediction variance 1256669.033: freq=48010808 diff=-65311 stddev=12629.495
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
 b'Got error -1 in can write: (105)No buffer space available'
