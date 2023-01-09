@@ -123,8 +123,8 @@ Systemd unit moonraker.service:
 unit_name: moonraker.service
 is_default: True
 Properties:
-**Requires=['-.mount', 'sysinit.target', 'system.slice', 'network-online.target']
-**After=['network-online.target', 'systemd-journald.socket', 'klipper.service', 'sysinit.target', 'system.slice', 'basic.target', '-.mount']
+**Requires=['system.slice', 'network-online.target', 'sysinit.target', '-.mount']
+**After=['basic.target', 'network-online.target', 'systemd-journald.socket', 'sysinit.target', '-.mount', 'system.slice', 'klipper.service']
 **SupplementaryGroups=['moonraker-admin']
 **EnvironmentFiles=/home/pi/printer_data/systemd/moonraker.env
 **ExecStart=/home/pi/moonraker-env/bin/python $MOONRAKER_ARGS
@@ -141,54 +141,172 @@ Properties:
 **ExecStart=/home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
 **FragmentPath=/etc/systemd/system/klipper.service
 Klipper Version: v0.10.0-635-gcfb633a0
-2023-01-06 03:05:09,024 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xa7724540>, <Task finished coro=<_HTTPConnection.run() done, defined at /home/pi/moonraker-env/lib/python3.7/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
-Traceback (most recent call last):
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/ioloop.py", line 740, in _run_callback
-    ret = callback()
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/simple_httpclient.py", line 346, in run
-    source_ip=source_ip,
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/tcpclient.py", line 265, in connect
-    addrinfo = await self.resolver.resolve(host, port, af)
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/netutil.py", line 434, in resolve
-    host, port, family=family, type=socket.SOCK_STREAM
-  File "/usr/lib/python3.7/asyncio/base_events.py", line 789, in getaddrinfo
-    None, getaddr_func, host, port, family, type, proto, flags)
-  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
-    result = self.fn(*self.args, **self.kwargs)
-  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno -3] Temporary failure in name resolution
-2023-01-06 03:05:10,532 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'moonraker': [Errno -3] Temporary failure in name resolution
-2023-01-06 03:05:12,553 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'klipper': [Errno -3] Temporary failure in name resolution
-2023-01-06 03:05:13,533 [ioloop.py:_run_callback()] - Exception in callback functools.partial(<function _HTTPConnection.__init__.<locals>.<lambda> at 0xa7fed8a0>, <Task finished coro=<_HTTPConnection.run() done, defined at /home/pi/moonraker-env/lib/python3.7/site-packages/tornado/simple_httpclient.py:290> exception=gaierror(-3, 'Temporary failure in name resolution')>)
-Traceback (most recent call last):
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/ioloop.py", line 740, in _run_callback
-    ret = callback()
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/simple_httpclient.py", line 287, in <lambda>
-    gen.convert_yielded(self.run()), lambda f: f.result()
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/simple_httpclient.py", line 346, in run
-    source_ip=source_ip,
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/tcpclient.py", line 265, in connect
-    addrinfo = await self.resolver.resolve(host, port, af)
-  File "/home/pi/moonraker-env/lib/python3.7/site-packages/tornado/netutil.py", line 434, in resolve
-    host, port, family=family, type=socket.SOCK_STREAM
-  File "/usr/lib/python3.7/asyncio/base_events.py", line 789, in getaddrinfo
-    None, getaddr_func, host, port, family, type, proto, flags)
-  File "/usr/lib/python3.7/concurrent/futures/thread.py", line 57, in run
-    result = self.fn(*self.args, **self.kwargs)
-  File "/usr/lib/python3.7/socket.py", line 748, in getaddrinfo
-    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
-socket.gaierror: [Errno -3] Temporary failure in name resolution
-2023-01-06 03:05:14,572 [announcements.py:_fetch_moonlight()] - Failed to update subscription 'mainsail': [Errno -3] Temporary failure in name resolution
-2023-01-06 03:05:16,425 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2023-01-06 03:05:16,427 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2023-01-06 03:05:26,436 [machine.py:_find_public_ip()] - Detected Local IP: 169.254.16.182
-2023-01-06 03:05:26,439 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://169.254.16.182
-2023-01-06 03:05:36,454 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2023-01-06 03:05:36,457 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
-2023-01-06 04:35:33,491 [machine.py:_find_public_ip()] - Failed to detect local IP address
-2023-01-06 04:35:33,493 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
-2023-01-06 04:36:13,546 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
-2023-01-06 04:36:13,550 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+2023-01-09 03:34:56,930 [update_manager.py:refresh()] - Detected 30 package updates:
+git
+git-man
+libarchive13
+libgif7
+libgssapi-krb5-2
+libjs-jquery-ui
+libk5crypto3
+libkrb5-3
+libkrb5support0
+libksba8
+libnginx-mod-http-auth-pam
+libnginx-mod-http-dav-ext
+libnginx-mod-http-echo
+libnginx-mod-http-geoip
+libnginx-mod-http-image-filter
+libnginx-mod-http-subs-filter
+libnginx-mod-http-upstream-fair
+libnginx-mod-http-xslt-filter
+libnginx-mod-mail
+libnginx-mod-stream
+libntfs-3g883
+mplayer
+nginx
+nginx-common
+nginx-full
+nodejs
+ntfs-3g
+vim-common
+vim-tiny
+xxd
+2023-01-09 03:34:56,965 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker status -u no) successfully finished
+2023-01-09 03:34:56,979 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker config --get branch.master.remote) successfully finished
+2023-01-09 03:34:56,994 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker remote get-url origin) successfully finished
+2023-01-09 03:34:57,898 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker fetch origin --prune --progress) successfully finished
+2023-01-09 03:34:57,915 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
+2023-01-09 03:34:57,930 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker branch --list) successfully finished
+2023-01-09 03:34:57,947 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-parse HEAD) successfully finished
+2023-01-09 03:34:57,991 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe --always --tags --long --dirty) successfully finished
+2023-01-09 03:34:58,006 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-parse origin/master) successfully finished
+2023-01-09 03:34:58,048 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe origin/master --always --tags --long) successfully finished
+2023-01-09 03:34:58,064 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-list --tags --max-count=1) successfully finished
+2023-01-09 03:34:58,080 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe --tags e20c12619bfb9504ef817fcde82752d47e52f145) successfully finished
+2023-01-09 03:34:58,099 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker log 362bc1a3d3ad397416f7fc48b8efe33837428b90..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2023-01-09 03:34:58,115 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2023-01-09 03:34:58,116 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
+Owner: Arksine
+Repository Name: moonraker
+Path: /home/pi/moonraker
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Arksine/moonraker.git
+Current Commit SHA: 362bc1a3d3ad397416f7fc48b8efe33837428b90
+Upstream Commit SHA: 225ec588eb0a993899e4e21fbc8c13eb174358ed
+Current Version: v0.7.1-773
+Upstream Version: v0.7.1-794
+Is Dirty: False
+Is Detached: False
+Commits Behind: 21
+Tag Data: {}
+Bound Repo: None
+Diverged: False
+2023-01-09 03:34:58,116 [base_deploy.py:log_info()] - Application moonraker: Channel: dev, Need Channel Update: False
+2023-01-09 03:34:58,116 [base_deploy.py:log_info()] - Application moonraker: Validity check for git repo passed
+2023-01-09 03:34:58,171 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper status -u no) successfully finished
+2023-01-09 03:34:58,188 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper config --get branch.master.remote) successfully finished
+2023-01-09 03:34:58,205 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper remote get-url origin) successfully finished
+2023-01-09 03:34:59,505 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper fetch origin --prune --progress) successfully finished
+2023-01-09 03:34:59,524 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
+2023-01-09 03:34:59,539 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper branch --list) successfully finished
+2023-01-09 03:34:59,554 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-parse HEAD) successfully finished
+2023-01-09 03:34:59,705 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe --always --tags --long --dirty) successfully finished
+2023-01-09 03:34:59,723 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-parse origin/master) successfully finished
+2023-01-09 03:34:59,866 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe origin/master --always --tags --long) successfully finished
+2023-01-09 03:34:59,888 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-list --tags --max-count=1) successfully finished
+2023-01-09 03:34:59,907 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe --tags e02b725602067a2cd098a62be9a4bb10fc74a9bd) successfully finished
+2023-01-09 03:34:59,931 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper log cfb633a0ecb21e855781c106fa37a214f3b9a0d3..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2023-01-09 03:34:59,953 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2023-01-09 03:34:59,954 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
+Owner: Klipper3d
+Repository Name: klipper
+Path: /home/pi/klipper
+Remote: origin
+Branch: master
+Remote URL: https://github.com/Klipper3d/klipper.git
+Current Commit SHA: cfb633a0ecb21e855781c106fa37a214f3b9a0d3
+Upstream Commit SHA: f1203d56f6bc2c84d00605a76525be4c13430324
+Current Version: v0.10.0-635
+Upstream Version: v0.11.0-62
+Is Dirty: False
+Is Detached: False
+Commits Behind: 31
+Tag Data: {}
+Bound Repo: None
+Diverged: False
+2023-01-09 03:34:59,954 [base_deploy.py:log_info()] - Application klipper: Channel: dev, Need Channel Update: False
+2023-01-09 03:34:59,954 [base_deploy.py:log_info()] - Application klipper: Validity check for git repo passed
+2023-01-09 03:35:00,251 [update_manager.py:_get_remote_version()] - Github client Info Received:
+Repo: mainsail
+Local Version: v2.4.0
+Remote Version: v2.4.1
+Pre-release: False
+url: https://github.com/mainsail-crew/mainsail/releases/download/v2.4.1/mainsail.zip
+size: 2267577
+Content Type: application/zip
+2023-01-09 03:35:00,289 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest status -u no) successfully finished
+2023-01-09 03:35:00,305 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest config --get branch.master.remote) successfully finished
+2023-01-09 03:35:00,322 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest remote get-url origin) successfully finished
+2023-01-09 03:35:01,074 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest fetch origin --prune --progress) successfully finished
+2023-01-09 03:35:01,099 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
+2023-01-09 03:35:01,120 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest branch --list) successfully finished
+2023-01-09 03:35:01,142 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-parse HEAD) successfully finished
+2023-01-09 03:35:01,170 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe --always --tags --long --dirty) successfully finished
+2023-01-09 03:35:01,191 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-parse origin/master) successfully finished
+2023-01-09 03:35:01,216 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe origin/master --always --tags --long) successfully finished
+2023-01-09 03:35:01,240 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-list --tags --max-count=1) successfully finished
+2023-01-09 03:35:01,262 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe --tags 957207b44874a5c5faa76fed157197590b9dc43f) successfully finished
+2023-01-09 03:35:01,288 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest log df8a6962ef634d03de254f1358be2a2b9378c7cc..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
+2023-01-09 03:35:01,312 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
+2023-01-09 03:35:01,313 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
+Owner: mainsail-crew
+Repository Name: crowsnest
+Path: /home/pi/crowsnest
+Remote: origin
+Branch: master
+Remote URL: https://github.com/mainsail-crew/crowsnest.git
+Current Commit SHA: df8a6962ef634d03de254f1358be2a2b9378c7cc
+Upstream Commit SHA: 00fe721bf352350a92c9d450789dd0e1ba17d55e
+Current Version: v3.0.3-9
+Upstream Version: v3.0.6-23
+Is Dirty: False
+Is Detached: False
+Commits Behind: 30
+Tag Data: {}
+Bound Repo: None
+Diverged: False
+2023-01-09 03:35:01,314 [base_deploy.py:log_info()] - Application crowsnest: Channel: dev, Need Channel Update: False
+2023-01-09 03:35:01,314 [base_deploy.py:log_info()] - Application crowsnest: Validity check for git repo passed
+2023-01-09 03:35:01,343 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar status -u no) successfully finished
+2023-01-09 03:35:01,364 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar config --get branch.main.remote) successfully finished
+2023-01-09 03:35:01,382 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar remote get-url origin) successfully finished
+2023-01-09 03:35:02,245 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar fetch origin --prune --progress) successfully finished
+2023-01-09 03:35:02,268 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
+2023-01-09 03:35:02,287 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar branch --list) successfully finished
+2023-01-09 03:35:02,301 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-parse HEAD) successfully finished
+2023-01-09 03:35:02,322 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe --always --tags --long --dirty) successfully finished
+2023-01-09 03:35:02,337 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-parse origin/main) successfully finished
+2023-01-09 03:35:02,354 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe origin/main --always --tags --long) successfully finished
+2023-01-09 03:35:02,370 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-list --tags --max-count=1) successfully finished
+2023-01-09 03:35:02,386 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe --tags 0afc14b9b8b6e438eb449029b2df8f2a5eed42f1) successfully finished
+2023-01-09 03:35:02,387 [git_deploy.py:log_repo_info()] - Git Repo sonar Detected:
+Owner: mainsail-crew
+Repository Name: sonar
+Path: /home/pi/sonar
+Remote: origin
+Branch: main
+Remote URL: https://github.com/mainsail-crew/sonar.git
+Current Commit SHA: 0ce6c6fc93780ef776fbc45c216336be03c8d907
+Upstream Commit SHA: 0ce6c6fc93780ef776fbc45c216336be03c8d907
+Current Version: v0.0.2-25
+Upstream Version: v0.0.2-25
+Is Dirty: False
+Is Detached: False
+Commits Behind: 0
+Tag Data: {}
+Bound Repo: None
+Diverged: False
+2023-01-09 03:35:02,387 [base_deploy.py:log_info()] - Application sonar: Channel: dev, Need Channel Update: False
+2023-01-09 03:35:02,387 [base_deploy.py:log_info()] - Application sonar: Validity check for git repo passed
