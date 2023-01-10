@@ -141,172 +141,58 @@ Properties:
 **ExecStart=/home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
 **FragmentPath=/etc/systemd/system/klipper.service
 Klipper Version: v0.10.0-635-gcfb633a0
-2023-01-09 03:34:56,930 [update_manager.py:refresh()] - Detected 30 package updates:
-git
-git-man
-libarchive13
-libgif7
-libgssapi-krb5-2
-libjs-jquery-ui
-libk5crypto3
-libkrb5-3
-libkrb5support0
-libksba8
-libnginx-mod-http-auth-pam
-libnginx-mod-http-dav-ext
-libnginx-mod-http-echo
-libnginx-mod-http-geoip
-libnginx-mod-http-image-filter
-libnginx-mod-http-subs-filter
-libnginx-mod-http-upstream-fair
-libnginx-mod-http-xslt-filter
-libnginx-mod-mail
-libnginx-mod-stream
-libntfs-3g883
-mplayer
-nginx
-nginx-common
-nginx-full
-nodejs
-ntfs-3g
-vim-common
-vim-tiny
-xxd
-2023-01-09 03:34:56,965 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker status -u no) successfully finished
-2023-01-09 03:34:56,979 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker config --get branch.master.remote) successfully finished
-2023-01-09 03:34:56,994 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker remote get-url origin) successfully finished
-2023-01-09 03:34:57,898 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker fetch origin --prune --progress) successfully finished
-2023-01-09 03:34:57,915 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker merge-base --is-ancestor HEAD origin/master) successfully finished
-2023-01-09 03:34:57,930 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker branch --list) successfully finished
-2023-01-09 03:34:57,947 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-parse HEAD) successfully finished
-2023-01-09 03:34:57,991 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe --always --tags --long --dirty) successfully finished
-2023-01-09 03:34:58,006 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-parse origin/master) successfully finished
-2023-01-09 03:34:58,048 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe origin/master --always --tags --long) successfully finished
-2023-01-09 03:34:58,064 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker rev-list --tags --max-count=1) successfully finished
-2023-01-09 03:34:58,080 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker describe --tags e20c12619bfb9504ef817fcde82752d47e52f145) successfully finished
-2023-01-09 03:34:58,099 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker log 362bc1a3d3ad397416f7fc48b8efe33837428b90..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2023-01-09 03:34:58,115 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/moonraker for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2023-01-09 03:34:58,116 [git_deploy.py:log_repo_info()] - Git Repo moonraker Detected:
-Owner: Arksine
-Repository Name: moonraker
-Path: /home/pi/moonraker
-Remote: origin
-Branch: master
-Remote URL: https://github.com/Arksine/moonraker.git
-Current Commit SHA: 362bc1a3d3ad397416f7fc48b8efe33837428b90
-Upstream Commit SHA: 225ec588eb0a993899e4e21fbc8c13eb174358ed
-Current Version: v0.7.1-773
-Upstream Version: v0.7.1-794
-Is Dirty: False
-Is Detached: False
-Commits Behind: 21
-Tag Data: {}
-Bound Repo: None
-Diverged: False
-2023-01-09 03:34:58,116 [base_deploy.py:log_info()] - Application moonraker: Channel: dev, Need Channel Update: False
-2023-01-09 03:34:58,116 [base_deploy.py:log_info()] - Application moonraker: Validity check for git repo passed
-2023-01-09 03:34:58,171 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper status -u no) successfully finished
-2023-01-09 03:34:58,188 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper config --get branch.master.remote) successfully finished
-2023-01-09 03:34:58,205 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper remote get-url origin) successfully finished
-2023-01-09 03:34:59,505 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper fetch origin --prune --progress) successfully finished
-2023-01-09 03:34:59,524 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper merge-base --is-ancestor HEAD origin/master) successfully finished
-2023-01-09 03:34:59,539 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper branch --list) successfully finished
-2023-01-09 03:34:59,554 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-parse HEAD) successfully finished
-2023-01-09 03:34:59,705 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe --always --tags --long --dirty) successfully finished
-2023-01-09 03:34:59,723 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-parse origin/master) successfully finished
-2023-01-09 03:34:59,866 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe origin/master --always --tags --long) successfully finished
-2023-01-09 03:34:59,888 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper rev-list --tags --max-count=1) successfully finished
-2023-01-09 03:34:59,907 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper describe --tags e02b725602067a2cd098a62be9a4bb10fc74a9bd) successfully finished
-2023-01-09 03:34:59,931 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper log cfb633a0ecb21e855781c106fa37a214f3b9a0d3..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2023-01-09 03:34:59,953 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/klipper for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2023-01-09 03:34:59,954 [git_deploy.py:log_repo_info()] - Git Repo klipper Detected:
-Owner: Klipper3d
-Repository Name: klipper
-Path: /home/pi/klipper
-Remote: origin
-Branch: master
-Remote URL: https://github.com/Klipper3d/klipper.git
-Current Commit SHA: cfb633a0ecb21e855781c106fa37a214f3b9a0d3
-Upstream Commit SHA: f1203d56f6bc2c84d00605a76525be4c13430324
-Current Version: v0.10.0-635
-Upstream Version: v0.11.0-62
-Is Dirty: False
-Is Detached: False
-Commits Behind: 31
-Tag Data: {}
-Bound Repo: None
-Diverged: False
-2023-01-09 03:34:59,954 [base_deploy.py:log_info()] - Application klipper: Channel: dev, Need Channel Update: False
-2023-01-09 03:34:59,954 [base_deploy.py:log_info()] - Application klipper: Validity check for git repo passed
-2023-01-09 03:35:00,251 [update_manager.py:_get_remote_version()] - Github client Info Received:
-Repo: mainsail
-Local Version: v2.4.0
-Remote Version: v2.4.1
-Pre-release: False
-url: https://github.com/mainsail-crew/mainsail/releases/download/v2.4.1/mainsail.zip
-size: 2267577
-Content Type: application/zip
-2023-01-09 03:35:00,289 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest status -u no) successfully finished
-2023-01-09 03:35:00,305 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest config --get branch.master.remote) successfully finished
-2023-01-09 03:35:00,322 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest remote get-url origin) successfully finished
-2023-01-09 03:35:01,074 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest fetch origin --prune --progress) successfully finished
-2023-01-09 03:35:01,099 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest merge-base --is-ancestor HEAD origin/master) successfully finished
-2023-01-09 03:35:01,120 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest branch --list) successfully finished
-2023-01-09 03:35:01,142 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-parse HEAD) successfully finished
-2023-01-09 03:35:01,170 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe --always --tags --long --dirty) successfully finished
-2023-01-09 03:35:01,191 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-parse origin/master) successfully finished
-2023-01-09 03:35:01,216 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe origin/master --always --tags --long) successfully finished
-2023-01-09 03:35:01,240 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest rev-list --tags --max-count=1) successfully finished
-2023-01-09 03:35:01,262 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest describe --tags 957207b44874a5c5faa76fed157197590b9dc43f) successfully finished
-2023-01-09 03:35:01,288 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest log df8a6962ef634d03de254f1358be2a2b9378c7cc..origin/master --format="sha:%H%x1Dauthor:%an%x1Ddate:%ct%x1Dsubject:%s%x1Dmessage:%b%x1E" --max-count=100) successfully finished
-2023-01-09 03:35:01,312 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/crowsnest for-each-ref --count=10 --sort='-creatordate' --format='%(if)%(*objecttype)%(then)%(*objecttype) (*objectname)%(else)%(objecttype) %(objectname)%(end) %(refname)' 'refs/tags') successfully finished
-2023-01-09 03:35:01,313 [git_deploy.py:log_repo_info()] - Git Repo crowsnest Detected:
-Owner: mainsail-crew
-Repository Name: crowsnest
-Path: /home/pi/crowsnest
-Remote: origin
-Branch: master
-Remote URL: https://github.com/mainsail-crew/crowsnest.git
-Current Commit SHA: df8a6962ef634d03de254f1358be2a2b9378c7cc
-Upstream Commit SHA: 00fe721bf352350a92c9d450789dd0e1ba17d55e
-Current Version: v3.0.3-9
-Upstream Version: v3.0.6-23
-Is Dirty: False
-Is Detached: False
-Commits Behind: 30
-Tag Data: {}
-Bound Repo: None
-Diverged: False
-2023-01-09 03:35:01,314 [base_deploy.py:log_info()] - Application crowsnest: Channel: dev, Need Channel Update: False
-2023-01-09 03:35:01,314 [base_deploy.py:log_info()] - Application crowsnest: Validity check for git repo passed
-2023-01-09 03:35:01,343 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar status -u no) successfully finished
-2023-01-09 03:35:01,364 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar config --get branch.main.remote) successfully finished
-2023-01-09 03:35:01,382 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar remote get-url origin) successfully finished
-2023-01-09 03:35:02,245 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar fetch origin --prune --progress) successfully finished
-2023-01-09 03:35:02,268 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar merge-base --is-ancestor HEAD origin/main) successfully finished
-2023-01-09 03:35:02,287 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar branch --list) successfully finished
-2023-01-09 03:35:02,301 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-parse HEAD) successfully finished
-2023-01-09 03:35:02,322 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe --always --tags --long --dirty) successfully finished
-2023-01-09 03:35:02,337 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-parse origin/main) successfully finished
-2023-01-09 03:35:02,354 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe origin/main --always --tags --long) successfully finished
-2023-01-09 03:35:02,370 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar rev-list --tags --max-count=1) successfully finished
-2023-01-09 03:35:02,386 [shell_command.py:_check_proc_success()] - Command (git -C /home/pi/sonar describe --tags 0afc14b9b8b6e438eb449029b2df8f2a5eed42f1) successfully finished
-2023-01-09 03:35:02,387 [git_deploy.py:log_repo_info()] - Git Repo sonar Detected:
-Owner: mainsail-crew
-Repository Name: sonar
-Path: /home/pi/sonar
-Remote: origin
-Branch: main
-Remote URL: https://github.com/mainsail-crew/sonar.git
-Current Commit SHA: 0ce6c6fc93780ef776fbc45c216336be03c8d907
-Upstream Commit SHA: 0ce6c6fc93780ef776fbc45c216336be03c8d907
-Current Version: v0.0.2-25
-Upstream Version: v0.0.2-25
-Is Dirty: False
-Is Detached: False
-Commits Behind: 0
-Tag Data: {}
-Bound Repo: None
-Diverged: False
-2023-01-09 03:35:02,387 [base_deploy.py:log_info()] - Application sonar: Channel: dev, Need Channel Update: False
-2023-01-09 03:35:02,387 [base_deploy.py:log_info()] - Application sonar: Validity check for git repo passed
+2023-01-10 00:43:08,408 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.181
+2023-01-10 00:43:08,410 [app.py:log_request()] - 101 GET /websocket (192.168.1.181) [_TRUSTED_USER_] 3.59ms
+2023-01-10 00:43:08,410 [websockets.py:open()] - Websocket Opened: ID: 2818110448, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 13; SM-F711U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.90
+2023-01-10 00:43:08,429 [websockets.py:_handle_identify()] - Websocket 2818110448 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2023-01-10 00:43:13,204 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
+2023-01-10 00:43:14,258 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2023-01-10 00:43:15,515 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2023-01-10 00:43:15,820 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2023-01-10 00:43:15,826 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2023-01-10 00:43:18,829 [job_state.py:_handle_started()] - Job state initialized: standby
+2023-01-10 00:43:19,103 [klippy_connection.py:_check_ready()] - Klippy ready
+2023-01-10 00:43:19,592 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2023-01-10 00:43:23,847 [job_state.py:_status_update()] - Job Started: Ring/3.gcode
+2023-01-10 00:43:26,452 [websockets.py:on_close()] - Websocket Closed: ID: 2818110448 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 8.03
+2023-01-10 00:48:38,860 [app.py:log_request()] - 101 GET /websocket (192.168.1.181) [_TRUSTED_USER_] 6.10ms
+2023-01-10 00:48:38,861 [websockets.py:open()] - Websocket Opened: ID: 2817954512, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 13; SM-F711U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.90
+2023-01-10 00:48:38,872 [websockets.py:_handle_identify()] - Websocket 2817954512 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2023-01-10 00:48:45,810 [websockets.py:on_close()] - Websocket Closed: ID: 2817954512 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 6.95
+2023-01-10 01:12:27,401 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2023-01-10 01:12:27,402 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2023-01-10 01:12:27,404 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1673334717.813179, Usage: 1.66%, Memory: 30260 kB
+System Time: 1673334718.814589, Usage: 1.54%, Memory: 30260 kB
+System Time: 1673334719.816141, Usage: 1.57%, Memory: 30260 kB
+System Time: 1673334720.817223, Usage: 1.55%, Memory: 30260 kB
+System Time: 1673334721.818921, Usage: 1.61%, Memory: 30260 kB
+System Time: 1673334722.819909, Usage: 1.59%, Memory: 30260 kB
+System Time: 1673334723.820599, Usage: 1.61%, Memory: 30260 kB
+System Time: 1673334724.821633, Usage: 1.53%, Memory: 30260 kB
+System Time: 1673334725.824419, Usage: 5.1%, Memory: 30260 kB
+System Time: 1673334726.823273, Usage: 1.73%, Memory: 30260 kB
+System Time: 1673334727.824334, Usage: 1.61%, Memory: 30260 kB
+System Time: 1673334728.825274, Usage: 1.6%, Memory: 30260 kB
+System Time: 1673334729.826979, Usage: 1.63%, Memory: 30260 kB
+System Time: 1673334730.828404, Usage: 1.52%, Memory: 30260 kB
+System Time: 1673334731.830236, Usage: 1.58%, Memory: 30260 kB
+System Time: 1673334732.832391, Usage: 1.62%, Memory: 30260 kB
+System Time: 1673334733.834064, Usage: 1.68%, Memory: 30260 kB
+System Time: 1673334734.836412, Usage: 1.61%, Memory: 30260 kB
+System Time: 1673334735.840110, Usage: 5.09%, Memory: 30260 kB
+System Time: 1673334736.840870, Usage: 1.75%, Memory: 30260 kB
+System Time: 1673334737.841794, Usage: 1.67%, Memory: 30260 kB
+System Time: 1673334738.842964, Usage: 1.59%, Memory: 30260 kB
+System Time: 1673334739.843850, Usage: 1.62%, Memory: 30260 kB
+System Time: 1673334740.845167, Usage: 1.59%, Memory: 30260 kB
+System Time: 1673334741.846186, Usage: 1.58%, Memory: 30260 kB
+System Time: 1673334742.843182, Usage: 1.87%, Memory: 30260 kB
+System Time: 1673334743.845125, Usage: 0.8%, Memory: 30260 kB
+System Time: 1673334744.845209, Usage: 0.86%, Memory: 30260 kB
+System Time: 1673334745.850428, Usage: 2.63%, Memory: 30260 kB
+System Time: 1673334746.846996, Usage: 1.29%, Memory: 30260 kB
+CPU Temperature: 39.433
+2023-01-10 01:12:27,420 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2023-01-10 01:49:43,602 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.181
