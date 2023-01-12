@@ -141,5 +141,23 @@ Properties:
 **ExecStart=/home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
 **FragmentPath=/etc/systemd/system/klipper.service
 Klipper Version: v0.10.0-635-gcfb633a0
-2023-01-11 00:34:43,871 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.181
-2023-01-11 00:39:43,872 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
+2023-01-12 01:05:21,191 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-12 01:05:21,192 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-12 01:05:31,198 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
+2023-01-12 01:05:31,199 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+2023-01-12 02:17:55,472 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-12 02:17:55,473 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-12 02:18:05,486 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
+2023-01-12 02:18:05,488 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+2023-01-12 04:14:02,268 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-12 04:14:02,270 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-12 04:14:12,276 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
+2023-01-12 04:14:12,278 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+2023-01-12 04:14:42,303 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-12 04:14:42,304 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-12 04:14:52,311 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
+2023-01-12 04:14:52,313 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+2023-01-12 04:15:42,382 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-12 04:15:42,383 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-12 04:15:52,389 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
+2023-01-12 04:15:52,391 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90

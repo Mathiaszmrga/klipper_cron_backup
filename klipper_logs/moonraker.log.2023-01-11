@@ -1,0 +1,225 @@
+--------------------Moonraker Log Start--------------------
+data_path: /home/pi/printer_data
+is_default_data_path: False
+config_file: /home/pi/klipper_config/moonraker.conf
+startup_warnings: []
+verbose: False
+debug: False
+asyncio_debug: False
+is_backup_config: False
+log_file: /home/pi/klipper_logs/moonraker.log
+software_version: v0.7.1-773-g362bc1a
+python_version: 3.7.3 (default, Jan 22 2021, 20:04:44)  [GCC 8.3.0]
+
+#################### Moonraker Configuration ####################
+
+[server]
+host = 0.0.0.0
+port = 7125
+max_upload_size = 1024
+
+[file_manager]
+enable_object_processing = True
+
+[authorization]
+cors_domains = 
+	https://my.mainsail.xyz
+	http://my.mainsail.xyz
+	http://*.local
+	http://*.lan
+trusted_clients = 
+	10.0.0.0/8
+	127.0.0.0/8
+	169.254.0.0/16
+	172.16.0.0/12
+	192.168.0.0/16
+	FE80::/10
+	::1/128
+
+[octoprint_compat]
+
+[history]
+
+[announcements]
+subscriptions = 
+	mainsail
+
+[update_manager]
+refresh_interval = 168
+enable_auto_refresh = True
+
+[update_manager mainsail]
+type = web
+channel = stable
+repo = mainsail-crew/mainsail
+path = ~/mainsail
+
+[update_manager crowsnest]
+type = git_repo
+path = ~/crowsnest
+origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
+
+[update_manager sonar]
+type = git_repo
+path = ~/sonar
+origin = https://github.com/mainsail-crew/sonar.git
+primary_branch = main
+managed_services = sonar
+
+[power mainpower]
+type = gpio
+pin = gpiochip0/gpio18
+off_when_shutdown = true
+restart_klipper_when_powered = true
+initial_state = off
+locked_while_printing = false
+on_when_job_queued = false
+
+#################################################################
+All Configuration Files:
+/home/pi/klipper_config/moonraker.conf
+#################################################################
+Unsafe Shutdown Count: 61
+
+System Info:
+
+***python***
+  version: sys.version_info(major=3, minor=7, micro=3, releaselevel='final', serial=0)
+  version_string: 3.7.3 (default, Jan 22 2021, 20:04:44)  [GCC 8.3.0]
+
+***cpu_info***
+  cpu_count: 4
+  bits: 32bit
+  processor: armv7l
+  cpu_desc: ARMv7 Processor rev 3 (v7l)
+  serial_number: 100000009514db42
+  hardware_desc: BCM2711
+  model: Raspberry Pi 4 Model B Rev 1.4
+  total_memory: 7904580
+  memory_units: kB
+
+***sd_info***
+
+***distribution***
+  name: Raspbian GNU/Linux 10 (buster)
+  id: raspbian
+  version: 10
+  version_parts: {'major': '10', 'minor': '', 'build_number': ''}
+  like: debian
+  codename: buster
+  release_info: {'name': 'MainsailOS', 'version_id': '0.7.1', 'codename': 'buster', 'id': 'mainsailos'}
+
+***virtualization***
+  virt_type: none
+  virt_identifier: none
+
+***network***
+
+***canbus***
+libgpiod version: 1.2
+
+Systemd unit moonraker.service:
+unit_name: moonraker.service
+is_default: True
+Properties:
+**Requires=['system.slice', 'network-online.target', 'sysinit.target', '-.mount']
+**After=['basic.target', 'network-online.target', 'systemd-journald.socket', 'sysinit.target', '-.mount', 'system.slice', 'klipper.service']
+**SupplementaryGroups=['moonraker-admin']
+**EnvironmentFiles=/home/pi/printer_data/systemd/moonraker.env
+**ExecStart=/home/pi/moonraker-env/bin/python $MOONRAKER_ARGS
+**WorkingDirectory=/home/pi/moonraker
+**FragmentPath=/etc/systemd/system/moonraker.service
+**Description=API Server for Klipper SV1
+**User=pi
+
+Systemd unit klipper.service:
+unit_name: klipper.service
+is_default: True
+Properties:
+**Description=Starts Klipper and provides klippy Unix Domain Socket API
+**ExecStart=/home/pi/klippy-env/bin/python /home/pi/klipper/klippy/klippy.py ${KLIPPER_CONFIG} -l ${KLIPPER_LOG} -a ${KLIPPER_SOCKET}
+**FragmentPath=/etc/systemd/system/klipper.service
+Klipper Version: v0.10.0-635-gcfb633a0
+2023-01-11 00:34:43,871 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.181
+2023-01-11 00:39:43,872 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.66
+2023-01-11 08:59:00,218 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.181
+2023-01-11 08:59:00,219 [app.py:log_request()] - 101 GET /websocket (192.168.1.181) [_TRUSTED_USER_] 3.61ms
+2023-01-11 08:59:00,220 [websockets.py:open()] - Websocket Opened: ID: 2818001936, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 13; SM-F711U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.90
+2023-01-11 08:59:00,237 [websockets.py:_handle_identify()] - Websocket 2818001936 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2023-01-11 08:59:03,511 [power.py:_schedule_firmware_restart()] - Power Device mainpower: Sending FIRMWARE_RESTART command to Klippy
+2023-01-11 08:59:04,565 [klippy_connection.py:_on_connection_closed()] - Klippy Connection Removed
+2023-01-11 08:59:04,616 [websockets.py:build_error()] - JSON-RPC Request Error: 503
+Klippy Host not connected
+Traceback (most recent call last):
+  File "/home/pi/moonraker/moonraker/websockets.py", line 253, in execute_method
+    result = await callback(params)
+  File "/home/pi/moonraker/moonraker/websockets.py", line 351, in func
+    user=sc.user_info))
+  File "/home/pi/moonraker/moonraker/klippy_connection.py", line 471, in request
+    raise ServerError("Klippy Host not connected", 503)
+utils.ServerError: Klippy Host not connected
+2023-01-11 08:59:05,823 [klippy_connection.py:_do_connect()] - Klippy Connection Established
+2023-01-11 08:59:06,136 [klippy_connection.py:_init_klippy_connection()] - Webhooks Subscribed
+2023-01-11 08:59:06,142 [klippy_connection.py:_init_klippy_connection()] - GCode Output Subscribed
+2023-01-11 08:59:09,146 [job_state.py:_handle_started()] - Job state initialized: standby
+2023-01-11 08:59:09,421 [klippy_connection.py:_check_ready()] - Klippy ready
+2023-01-11 08:59:09,917 [data_store.py:_init_sensors()] - Configuring available sensors: ['temperature_sensor raspberry_pi', 'temperature_sensor SKR_temp', 'temperature_sensor thermexp', 'temperature_sensor toolhead_MCU', 'temperature_sensor chamber', 'temperature_fan Stepper_Left', 'temperature_fan Stepper_Righ', 'temperature_fan electronics_bay', 'heater_bed', 'extruder']
+2023-01-11 08:59:13,160 [job_state.py:_status_update()] - Job Started: Bumps/4.gcode
+2023-01-11 08:59:16,001 [websockets.py:on_close()] - Websocket Closed: ID: 2818001936 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 5.77
+2023-01-11 09:59:43,978 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.181
+2023-01-11 10:03:54,653 [authorization.py:_check_trusted_connection()] - Trusted Connection Detected, IP: 192.168.1.181
+2023-01-11 10:03:54,656 [app.py:log_request()] - 101 GET /websocket (192.168.1.181) [_TRUSTED_USER_] 7.60ms
+2023-01-11 10:03:54,657 [websockets.py:open()] - Websocket Opened: ID: 2818050416, Proxied: True, User Agent: Mozilla/5.0 (Linux; Android 13; SM-F711U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Mobile Safari/537.36, Host Name: 192.168.1.90
+2023-01-11 10:03:54,671 [websockets.py:_handle_identify()] - Websocket 2818050416 Client Identified - Name: mainsail, Version: 2.4.0, Type: web
+2023-01-11 10:05:37,433 [websockets.py:on_close()] - Websocket Closed: ID: 2818050416 Close Code: 1001, Close Reason: None, Pong Time Elapsed: 2.77
+2023-01-11 10:11:02,334 [klippy_connection.py:_process_status_update()] - Klippy has shutdown
+2023-01-11 10:11:02,335 [power.py:_power_off_on_shutdown()] - Powering off device 'mainpower' due to klippy shutdown
+2023-01-11 10:11:02,337 [proc_stats.py:_handle_shutdown()] - 
+Moonraker System Usage Statistics:
+System Time: 1673453432.699316, Usage: 1.51%, Memory: 30312 kB
+System Time: 1673453433.700107, Usage: 1.68%, Memory: 30312 kB
+System Time: 1673453434.701382, Usage: 1.62%, Memory: 30312 kB
+System Time: 1673453435.701841, Usage: 1.63%, Memory: 30312 kB
+System Time: 1673453436.703496, Usage: 1.59%, Memory: 30312 kB
+System Time: 1673453437.703740, Usage: 1.64%, Memory: 30312 kB
+System Time: 1673453438.705204, Usage: 1.53%, Memory: 30312 kB
+System Time: 1673453439.707738, Usage: 5.23%, Memory: 30312 kB
+System Time: 1673453440.708718, Usage: 1.74%, Memory: 30312 kB
+System Time: 1673453441.709237, Usage: 1.61%, Memory: 30312 kB
+System Time: 1673453442.710623, Usage: 1.6%, Memory: 30312 kB
+System Time: 1673453443.710698, Usage: 1.63%, Memory: 30312 kB
+System Time: 1673453444.713236, Usage: 1.47%, Memory: 30312 kB
+System Time: 1673453445.714169, Usage: 1.56%, Memory: 30312 kB
+System Time: 1673453446.715254, Usage: 1.56%, Memory: 30312 kB
+System Time: 1673453447.716161, Usage: 1.59%, Memory: 30312 kB
+System Time: 1673453448.717027, Usage: 1.57%, Memory: 30312 kB
+System Time: 1673453449.718768, Usage: 5.2%, Memory: 30312 kB
+System Time: 1673453450.719130, Usage: 1.59%, Memory: 30312 kB
+System Time: 1673453451.720352, Usage: 1.61%, Memory: 30312 kB
+System Time: 1673453452.721535, Usage: 1.56%, Memory: 30312 kB
+System Time: 1673453453.722873, Usage: 1.59%, Memory: 30312 kB
+System Time: 1673453454.724092, Usage: 1.59%, Memory: 30312 kB
+System Time: 1673453455.724418, Usage: 1.63%, Memory: 30312 kB
+System Time: 1673453456.726238, Usage: 1.46%, Memory: 30312 kB
+System Time: 1673453457.724186, Usage: 1.73%, Memory: 30312 kB
+System Time: 1673453458.727207, Usage: 0.98%, Memory: 30312 kB
+System Time: 1673453459.729593, Usage: 4.05%, Memory: 30312 kB
+System Time: 1673453460.728386, Usage: 1.17%, Memory: 30312 kB
+System Time: 1673453461.729418, Usage: 0.77%, Memory: 30312 kB
+CPU Temperature: 36.998
+2023-01-11 10:11:02,352 [proc_stats.py:_handle_shutdown()] - Throttled Flags: 
+2023-01-11 11:09:43,993 [authorization.py:_prune_conn_handler()] - Trusted Connection Expired, IP: 192.168.1.181
+2023-01-11 15:31:17,565 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-11 15:31:17,567 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-11 15:31:27,570 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
+2023-01-11 15:31:27,572 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+2023-01-11 23:49:46,732 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-11 23:49:46,734 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-11 23:49:56,741 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-11 23:50:06,752 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
+2023-01-11 23:50:06,754 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
+2023-01-11 23:50:26,783 [machine.py:_find_public_ip()] - Failed to detect local IP address
+2023-01-11 23:50:26,785 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://127.0.0.1
+2023-01-11 23:50:36,797 [machine.py:_find_public_ip()] - Detected Local IP: 192.168.1.90
+2023-01-11 23:50:36,799 [webcam.py:_set_default_host_ip()] - Default public webcam address set: http://192.168.1.90
